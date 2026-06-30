@@ -1,40 +1,44 @@
 (function () {
   'use strict';
 
+  // ── Menú de navegación ────────────────────────────────────────────────────
+
   var menuHtml = [
     '<div class="menu">',
     '  <ul>',
     '    <li><a href="index.html" data-nav="inicio">',
     '      <div class="hm"><i class="home1"></i><i class="home2"></i>',
-    '          <p style="font-size:11px;">INICIO</p>',
+    '          <p class="nav-label">INICIO</p>',
     '      </div>',
     '    </a></li>',
     '    <li><a href="quienes-somos.html" data-nav="quienes-somos">',
     '      <div class="cat"><i class="watching"></i><i class="watching1"></i>',
-    '          <p style="font-size:11px;">QUIENES<br>SOMOS</p>',
+    '          <p class="nav-label">QUIENES<br>SOMOS</p>',
     '      </div>',
     '    </a></li>',
     '    <li><a href="porfolio.html" data-nav="porfolio">',
     '      <div class="video"><i class="videos"></i><i class="videos1"></i>',
-    '          <p style="font-size:11px;">PORFOLIO</p>',
+    '          <p class="nav-label">PORFOLIO</p>',
     '      </div>',
     '    </a></li>',
     '    <li><a href="contacto.html" data-nav="contacto">',
     '      <div class="cnt"><i class="contact"></i><i class="contact1"></i>',
-    '          <p style="font-size:11px;">CONTACTO</p>',
+    '          <p class="nav-label">CONTACTO</p>',
     '      </div>',
     '    </a></li>',
     '  </ul>',
     '</div>'
   ].join('\n');
 
+  // ── Pie de página ─────────────────────────────────────────────────────────
+
   var footerHtml = [
     '<div class="footer">',
     '  <div class="col-md-3">',
     '    <div class="thumbnail">',
     '      <div class="caption">',
-    '        <h4 style="color:#fbfbfb; padding-left:0;">PUBLICIDAD TV/RADIO</h4>',
-    '        <ul style="list-style-image:none; list-style-type:none;">',
+    '        <h4 class="footer-heading">PUBLICIDAD TV/RADIO</h4>',
+    '        <ul class="footer-list">',
     '          <li><a href="publicidad-telemadrid.html">Publicidad en Telemadrid</a></li>',
     '          <li><a href="publicidad-onda-madrid.html">Publicidad en radio (Onda Madrid)</a></li>',
     '        </ul>',
@@ -44,10 +48,10 @@
     '  <div class="col-md-3">',
     '    <div class="thumbnail">',
     '      <div class="caption">',
-    '        <h4 style="color:#fbfbfb; padding-left:0;">OTROS SERVICIOS</h4>',
-    '        <ul style="list-style-image:none; list-style-type:none;">',
+    '        <h4 class="footer-heading">OTROS SERVICIOS</h4>',
+    '        <ul class="footer-list">',
     '          <li><a href="otros-servicios.html">Casting de actores <br>',
-    '            Localizaciones <span style="color:#555;">/</span> Below the Screen</a></li>',
+    '            Localizaciones <span class="text-separator">/</span> Below the Screen</a></li>',
     '          <li><a href="creacion-logotipos.html">Creación de logotipos</a></li>',
     '        </ul>',
     '      </div>',
@@ -56,8 +60,8 @@
     '  <div class="col-md-3">',
     '    <div class="thumbnail">',
     '      <div class="caption">',
-    '        <h4 style="color:#fbfbfb; padding-left:0;">LOS 10 MÁS</h4>',
-    '        <ul style="list-style-image:none; list-style-type:none;">',
+    '        <h4 class="footer-heading">LOS 10 MÁS</h4>',
+    '        <ul class="footer-list">',
     '          <li><a href="las-10-frases-mas-famosas-de-la-historia-del-cine.html">Las 10 frases más famosas de la historia del cine</a></li>',
     '          <li><a href="las-10-frases-5-estrellas-relacionadas-con-el-cine.html">Las 10 frases 5* relacionadas con el cine</a></li>',
     '        </ul>',
@@ -67,8 +71,8 @@
     '  <div class="col-md-3">',
     '    <div class="thumbnail">',
     '      <div class="caption">',
-    '        <h4 style="color:#fbfbfb; padding-left:0;">VIAJES DE CINE</h4>',
-    '        <ul style="list-style-image:none; list-style-type:none;">',
+    '        <h4 class="footer-heading">VIAJES DE CINE</h4>',
+    '        <ul class="footer-list">',
     '          <li><a href="http://viajesporchin.es/itinerario-china-de-cine.php" target="_blank">China de cine</a></li>',
     '          <li><a href="http://viajesporchin.es/itinerario-paisajes-de-avatar.php" target="_blank">China: Paisajes de Avatar</a></li>',
     '          <li><a href="enlaces-de-interes.html" target="_blank">Enlaces de interés</a></li>',
@@ -76,38 +80,44 @@
     '      </div>',
     '    </div>',
     '  </div>',
-    '  <div class="col-md-12" style="text-align:center;">',
-    '    <div class="thumbnail" style="margin-bottom:0;">',
-    '      <div class="caption" style="color:#fff;"><p>Todos los derechos reservados publicidadcines.com © 2015</p></div>',
+    '  <div class="col-md-12 text-center">',
+    '    <div class="thumbnail no-margin-bottom">',
+    '      <div class="caption text-white"><p>Todos los derechos reservados publicidadcines.com © 2015</p></div>',
     '    </div>',
     '  </div>',
     '</div>'
   ].join('\n');
 
-  var whatsappHtml = '<a href="https://api.whatsapp.com/send/?phone=34668554651" style="position:fixed; z-index:100; bottom:20px; right:20px;" target="_blank"><img src="images/whatsapp-icon.png" style="width:55px; height:55px;" alt="WhatsApp"></a>';
+  // ── Botón flotante de WhatsApp ────────────────────────────────────────────
+
+  var whatsappHtml = '<a href="https://api.whatsapp.com/send/?phone=34668554651" class="whatsapp-btn" target="_blank"><img src="images/whatsapp-icon.png" class="whatsapp-icon" alt="WhatsApp"></a>';
+
+  // ── Logo / cabecera superior ──────────────────────────────────────────────
 
   var logoHtml = [
     '<div class="top-header span_top">',
-    '  <a href="index.html"><img src="images/logos-top.png" style="max-width:100%; height:auto;" alt="Publcidad en cines" title="Publcidad en cines" /></a>',
+    '  <a href="index.html"><img src="images/logos-top.png" class="img-full" alt="Publicidad en cines" title="Publicidad en cines" /></a>',
     '  <div class="clearfix"></div>',
     '</div>'
   ].join('\n');
 
+  // ── Slider de vídeos (portadas anunciarse-en-cines-*) ────────────────────
+
   var sliderHtml = [
-    '<div class="main" style="background-color:#000; height:auto; padding-top:30px; padding-bottom:200px; background-image:url(images/bg-cine-sala2.png); background-position: 50% 100%; background-repeat:no-repeat;">',
+    '<div class="main video-slider">',
     '  <ul class="rslides" id="slider1">',
-    '    <li><a href="http://publicidadcines.com/spots/piniauto-02.webm" target="_blank"><img src="images/portadas/video-cine-14.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/quesos-camporeal.webm" target="_blank"><img src="images/portadas/video-cine-24.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/restaurante-shibuya.webm" target="_blank"><img src="images/portadas/video-cine-15.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/spot-ceramico.webm" target="_blank"><img src="images/portadas/video-cine-16.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/spot-estoril.webm" target="_blank"><img src="images/portadas/video-cine-17.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/terranova-02.webm" target="_blank"><img src="images/portadas/video-cine-18.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/the-good-burger.webm" target="_blank"><img src="images/portadas/video-cine-19.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/clinica-h20-02.webm" target="_blank"><img src="images/portadas/video-020.jpg" style="max-width:100%; height:auto;" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/la-clinica-veterinaria-02.webm" target="_blank"><img src="images/portadas/video-021.jpg" style="max-width:100%; height:auto;" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/lynea-y-salud-02.webm" target="_blank"><img src="images/portadas/video-022.jpg" style="max-width:100%; height:auto;" /></a></li>',
-    '    <li><a href="http://publicidadcines.com/spots/spot-racc-02.webm" target="_blank"><img src="images/portadas/video-023.jpg" style="max-width:100%; height:auto;" /></a></li>',
-    '    <li><a href="https://www.youtube.com/embed/W_3moGr30hQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-01.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/piniauto-02.webm" target="_blank"><img src="images/portadas/video-cine-14.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/quesos-camporeal.webm" target="_blank"><img src="images/portadas/video-cine-24.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/restaurante-shibuya.webm" target="_blank"><img src="images/portadas/video-cine-15.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-ceramico.webm" target="_blank"><img src="images/portadas/video-cine-16.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-estoril.webm" target="_blank"><img src="images/portadas/video-cine-17.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/terranova-02.webm" target="_blank"><img src="images/portadas/video-cine-18.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/the-good-burger.webm" target="_blank"><img src="images/portadas/video-cine-19.jpg" class="img-full" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/clinica-h20-02.webm" target="_blank"><img src="images/portadas/video-020.jpg" class="img-full" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/la-clinica-veterinaria-02.webm" target="_blank"><img src="images/portadas/video-021.jpg" class="img-full" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/lynea-y-salud-02.webm" target="_blank"><img src="images/portadas/video-022.jpg" class="img-full" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-racc-02.webm" target="_blank"><img src="images/portadas/video-023.jpg" class="img-full" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/W_3moGr30hQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-01.jpg" class="img-full" alt="" /></a></li>',
     '    <li><a href="https://www.youtube.com/embed/lfBwjKxsFzQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-02.jpg" class="img-responsive" alt="" /></a></li>',
     '    <li><a href="https://player.vimeo.com/video/111247044" target="_blank"><img src="images/portadas/video-cine-03.jpg" class="img-responsive" alt="" /></a></li>',
     '    <li><a href="https://www.youtube.com/embed/KvQHcIwh1S8?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-06.jpg" class="img-responsive" alt="" /></a></li>',
@@ -118,6 +128,8 @@
     '  </ul>',
     '</div>'
   ].join('\n');
+
+  // ── Formulario de contacto (ciudad dinámica vía data-city) ────────────────
 
   var contactFormHtml = [
     '<div class="main-contact">',
@@ -159,7 +171,7 @@
     '            <div class="col-md-12 col-sm-12">',
     '              <label>Mensaje</label>',
     '              <textarea name="mensaje" id="mensaje" rows="5" class="form-control word-count" data-info="textarea-words-info" placeholder="Deje su mensaje..."></textarea>',
-    '              <input type="email" style="display:none;" name="verificacion" class="verif" />',
+    '              <input type="email" class="hidden verif" name="verificacion" />',
     '            </div>',
     '          </div>',
     '        </div>',
@@ -176,7 +188,7 @@
     '        <div class="row">',
     '          <div class="form-group">',
     '            <div class="col-md-6 col-sm-6">',
-    '              <input type="checkbox" style="margin-bottom:24px;margin-top:24px;" name="info" value="Email" required>',
+    '              <input type="checkbox" class="privacy-checkbox" name="info" value="Email" required>',
     '              <i></i> He leido y acepto la <a href="https://publicidadcines.com/politica-privacidad.html">política de privacidad</a>',
     '            </div>',
     '          </div>',
@@ -191,11 +203,13 @@
     '      </fieldset>',
     '    </form>',
     '  </div>',
-    '  <div class="contact_info" style="text-align:center;">',
-    '    <div class="map"><a href="mailto:info@publicidadcines.com"><img style="max-width:100%;height:auto;" src="images/footer-contact-s.jpg" alt="Plató 16 y Santiso Asesores" title="Plató 16 y Santiso Asesores"></a></div>',
+    '  <div class="contact_info text-center">',
+    '    <div class="map"><a href="mailto:info@publicidadcines.com"><img class="img-full" src="images/footer-contact-s.jpg" alt="Plató 16 y Santiso Asesores" title="Plató 16 y Santiso Asesores"></a></div>',
     '  </div>',
     '</div>'
   ].join('\n');
+
+  // ── Mapa de páginas para resaltar la sección activa en el menú ───────────
 
   var navMap = {
     'index.html':          'inicio',
@@ -204,6 +218,8 @@
     'porfolio.html':       'porfolio',
     'contacto.html':       'contacto'
   };
+
+  // ── Inyección de componentes en el DOM ───────────────────────────────────
 
   function inject() {
     var navEl      = document.getElementById('site-nav');
@@ -214,12 +230,14 @@
     if (footerEl)   footerEl.innerHTML   = footerHtml;
     if (whatsappEl) whatsappEl.innerHTML = whatsappHtml;
 
+    // outerHTML reemplaza el placeholder completo incluido su atributo data-city
     var contactEl = document.getElementById('site-contact-form');
     if (contactEl) {
       var city = contactEl.getAttribute('data-city') || '';
       contactEl.outerHTML = contactFormHtml.replace('{city}', city);
     }
 
+    // El slider inicializa responsiveSlides tras la inserción en el DOM
     var sliderEl = document.getElementById('site-slider');
     if (sliderEl) {
       sliderEl.outerHTML = sliderHtml;
@@ -231,6 +249,7 @@
     var logoEl = document.getElementById('site-logo');
     if (logoEl) { logoEl.outerHTML = logoHtml; }
 
+    // Inicializar popup de vídeos
     if (typeof $ !== 'undefined' && $.fn.magnificPopup) {
       $('.popup-with-zoom-anim').magnificPopup({
         type: 'inline',
@@ -245,15 +264,16 @@
       });
     }
 
+    // Volver al inicio de la página al cargar
     window.addEventListener('load', function () { window.scrollTo(0, 0); });
 
+    // Marcar el ítem activo del menú según la URL actual
     var page = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
     var activeNav = navMap[page];
     if (activeNav) {
       var links = document.querySelectorAll('#site-nav [data-nav="' + activeNav + '"]');
       for (var i = 0; i < links.length; i++) {
         links[i].className = (links[i].className ? links[i].className + ' ' : '') + 'active';
-        links[i].style.color = '#1B242F';
       }
     }
   }
