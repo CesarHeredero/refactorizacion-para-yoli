@@ -1,0 +1,365 @@
+<br><br>
+<table cellpadding="0" cellspacing="0" align="center" width="900">
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line"><!--lang_stats_visitors--></td>
+					<td class="header_line" align="right"><script>document.write(new Date(2016,0,25,0, 00, 00, 0).toLocaleDateString());</script></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">&nbsp;&nbsp;12 <!--lang_stats_visitors--></td>
+					<td class="header_nav_line" align="right">Status:&nbsp;&nbsp;<!--lang_stats_status_closed-->&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15">#</td>
+					<td class="bt_column_header" width="40" align="center"><!--lang_stats_pages--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_entrance--></td>
+					<td class="bt_column_header" width="60" align="center"><!--lang_stats_exit--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_country--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_city--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_browser--></td>
+					<td class="bt_column_header" width="*"><!--lang_stats_system--></td>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+				</tr>
+				
+<tr>
+    <td>1</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_1');"><b>1</b></a></td>
+    <td align="center">00:57:57</td>
+    <td align="center">00:57:57</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Safari 6</td>
+    <td NOWRAP>iPhone / iOS</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','190.9.xxx.xxx','Cable-Costavision190-9-203-91.une.net.co','739895a9c3',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_11">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">00:57:57</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.com.co/" target="_blank"><b>https://www.google.com.co/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_12">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">00:57:57</td>
+		<td align="center">00:57:57</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>2</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_2');"><b>1</b></a></td>
+    <td align="center">03:39:10</td>
+    <td align="center">03:39:10</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Safari 5</td>
+    <td NOWRAP>Linux</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','82.98.xxx.xxx','apl02.dinaserver.com','81bb753f95',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_21">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">03:39:10</td>
+		<td align="center">03:39:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank"><b>http://publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>3</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_3');"><b>1</b></a></td>
+    <td align="center">09:33:42</td>
+    <td align="center">09:33:42</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 36</td>
+    <td NOWRAP>Windows 7</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','108.249.xxx.xxx','108-249-133-136.lightspeed.sntcca.sbcglobal.net','31e69b2626',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_31">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">09:33:42</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://buttons-for-website.com" target="_blank"><b>http://buttons-for-website.com</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_32">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">09:33:42</td>
+		<td align="center">09:33:42</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank"><b>http://publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>4</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_4');"><b>1</b></a></td>
+    <td align="center">10:52:31</td>
+    <td align="center">10:52:55</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 47</td>
+    <td NOWRAP>Windows 7</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','195.47.xxx.xxx','195.47.xxx.xxx.es.yr.com','5644ffeb5d',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_41">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">10:52:31</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.es/" target="_blank"><b>https://www.google.es/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_42">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">10:52:31</td>
+		<td align="center">10:52:55</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>5</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_5');"><b>1</b></a></td>
+    <td align="center">11:18:51</td>
+    <td align="center">11:18:51</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 47</td>
+    <td NOWRAP>MAC OS X 10.9 (Mavericks)</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','185.132.xxx.xxx','185.132.xxx.xxx','c6e0d50623',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_51">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">11:18:51</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.es/" target="_blank"><b>https://www.google.es/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_52">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">11:18:51</td>
+		<td align="center">11:18:51</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>6</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_6');"><b>1</b></a></td>
+    <td align="center">15:25:54</td>
+    <td align="center">15:25:54</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Unknown Smartphone</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','207.241.xxx.xxx','crawl808.us.archive.org','2feea174ff',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_61">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">15:25:54</td>
+		<td align="center">15:25:54</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank"><b>http://publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>7</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_7');"><b>1</b></a></td>
+    <td align="center">16:40:26</td>
+    <td align="center">16:40:26</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 47</td>
+    <td NOWRAP>Windows 7</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','195.55.xxx.xxx','195.55.xxx.xxx','100bd65054',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_71">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">16:40:26</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.es/" target="_blank"><b>https://www.google.es/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_72">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">16:40:26</td>
+		<td align="center">16:40:26</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>8</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_8');"><b>1</b></a></td>
+    <td align="center">17:51:18</td>
+    <td align="center">17:51:18</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>FireFox 40</td>
+    <td NOWRAP>Windows 7</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','193.147.xxx.xxx','193.147.xxx.xxx','924c3c1c00',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_81">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">17:51:18</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.es" target="_blank"><b>https://www.google.es</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_82">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">17:51:18</td>
+		<td align="center">17:51:18</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>9</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_9');"><b>1</b></a></td>
+    <td align="center">17:58:38</td>
+    <td align="center">17:58:38</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Safari 6</td>
+    <td NOWRAP>MAC OS X 10.1 (Puma)</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','200.80.xxx.xxx','200.80.xxx.xxx.static.techtelnet.net','08c824f769',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_91">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">17:58:38</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.com.ar/" target="_blank"><b>https://www.google.com.ar/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_92">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">17:58:38</td>
+		<td align="center">17:58:38</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>10</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_10');"><b>1</b></a></td>
+    <td align="center">18:16:26</td>
+    <td align="center">18:16:26</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 47</td>
+    <td NOWRAP>Windows 7</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','200.95.xxx.xxx','200.95.xxx.xxx','f4d23397b3',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_101">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">18:16:26</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://top1-seo-service.com/try.php?u=http://publicidadcines.com" target="_blank"><b>http://top1-seo-service.com/try.php?u=http://publicidadcines.com</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_102">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">18:16:26</td>
+		<td align="center">18:16:26</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank"><b>http://publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>11</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_11');"><b>1</b></a></td>
+    <td align="center">19:45:26</td>
+    <td align="center">20:01:13</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 47</td>
+    <td NOWRAP>Windows 10</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','82.158.xxx.xxx','82.158.xxx.xxx.dyn.user.ono.com','a70cbaac47',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_111">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">19:45:26</td>
+		<td align="center">20:01:13</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+<tr>
+    <td>12</td>
+    <td align="center"><a href="javascript:switchRowVisibility('pl_12');"><b>1</b></a></td>
+    <td align="center">21:33:11</td>
+    <td align="center">21:33:11</td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP><!--lang_stats_unknown--></td>
+    <td NOWRAP>Chrome 28</td>
+    <td NOWRAP>Samsung / AndroidOS</td>
+    <td class="vn" align="right"><div class="ico_info" onclick="showInfoBox('','1','1','31.4.xxx.xxx','31-4-213-197.red-acceso.airtel.net','921791beb6',this); return true;"></div></td>
+</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_121">
+		<td>&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">&nbsp;</td>
+		<td align="center">21:33:11</td>
+		<td colspan="5">Referrer:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=https://www.google.es/" target="_blank"><b>https://www.google.es/</b></a></td>
+	</tr>
+
+	<tr style="display:none;" class="bt_values_url" id="pl_122">
+		<td>&nbsp;</td>
+		<td align="center">1</td>
+		<td align="center">21:33:11</td>
+		<td align="center">21:33:11</td>
+		<td colspan="5"><!--lang_stats_browser--> 1:&nbsp;&nbsp;<a href="http://dereferrer.livezilla.info/?url=http://www.publicidadcines.com/" target="_blank"><b>http://www.publicidadcines.com/</b></a></td>
+	</tr>
+
+			</table>
+			<br>
+		</td>
+	</tr>
+</table>
+<script type="text/javascript">
+function showInfoBox(_isp, _visits, _visits_day, _ip, _host, _id, _parent)
+{
+if(ibCurrent != _parent)
+{
+document.getElementById("info_box").innerHTML = "<strong>ID:</strong> " + _id + "<br><strong><!--lang_stats_isp-->:</strong> " + _isp + "<br><strong>IP:</strong> " +_ip + "<br><strong>Host:</strong> " +_host + "<br><strong><!--lang_stats_visits-->:</strong> " + _visits + "<br><strong><!--lang_stats_visits_today-->:</strong> " + _visits_day;
+assignPosition(document.getElementById("info_box"));
+document.getElementById("info_box").style.display = "block";
+ibCurrent = _parent;
+}
+else
+{
+document.getElementById("info_box").style.display = "none";
+ibCurrent = null;
+}
+}
+</script>

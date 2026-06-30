@@ -1,0 +1,37 @@
+#msg-cookies-js{
+	background: rgba(255,255,255,.9);
+    color:#464851;
+    font-size: 11px;
+    padding: 1%;
+    margin: 1% 1% 0;
+    position: fixed;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    width: 90%;
+    left: 1%;
+    right: 5%;
+    bottom: 0;
+    z-index: 10000;
+    -moz-border-top-right-radius: 5px;
+    -webkiborder-top-right-radius: 5px;
+    border-top-right-radius: 2px;
+    -moz-border-top-left-radius: 5px;
+    -webkiborder-top-left-radius: 5px;
+    border-top-left-radius: 2px;
+    box-shadow: -1px 1px 2px 1px silver;
+    border: 1px solid #fff;
+}
+#msg-cookies-js .btns a{
+	margin:5px;
+	padding:10px;
+	font-size: 1.2em;
+	text-decoration: none;
+	box-shadow: -1px 1px 2px 1px #c0c0c0;
+	border-radius: 4px;
+	background: white;
+}
+#msg-cookies-js .btn-accept{
+	color:white;
+}

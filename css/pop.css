@@ -1,0 +1,170 @@
+#ss-0001,#ss-0002,#ss-0003,#ss-0004,#ss-0005,#ss-0006,#ss-0007,#ss-0008,#ss-0009,#ss-0010,#ss-0011,#ss-0012,#ss-0013,#ss-0014,#ss-0015,#ss-0016,#ss-0017,#ss-0018,#ss-0019,#ss-0020,#ss-0021,#ss-0022,#ss-0023,#ss-0024,#ss-0025,#ss-0026,#ss-0027,#ss-0028,#ss-0029,#ss-0030,#ss-0031,#ss-0032,#ss-0033,#ss-0034,#ss-0035,#ss-0036,#ss-0037,#ss-0038,#ss-0039,#ss-0040,#ss-0041,#ss-0042,#ss-0043,#ss-0044,#ss-0045,#ss-0046,#ss-0047,#ss-0048,#ss-0049,#ss-0050,#ss-0051,#ss-0052,#ss-0053,#ss-0054,#ss-0055,#ss-0056,#ss-0057,#ss-0058,#ss-0059,#ss-0060,#ss-0061,#ss-0062,#ss-0063,#ss-0064,#ss-0065,#ss-0066,#ss-0067,#ss-0068,#ss-0069,#ss-0070,#ss-0071,#ss-0072,#ss-0073,#ss-0074,#ss-0075,#ss-0076,#ss-0077,#ss-0078,#ss-0079,#ss-0080,#ss-0081,#ss-0082,#ss-0083,#ss-0084,#ss-0085,#ss-0086,#ss-0087,#ss-0088,#ss-0089,#ss-0090,#ss-0091,#ss-0092,#ss-0093,#ss-0094,#ss-0095,#ss-0096,#ss-0097,#ss-0098,#ss-0099,#ss-0100{
+	background: #FFF;
+	padding:20px;
+	text-align: left;
+	max-width: 700px;
+	margin: 40px auto;
+	position: relative;
+	text-align:center;
+}
+
+/* Magnific Popup CSS */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; }
+
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.mfp-align-top .mfp-container:before {
+  display: none; }
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progress; }
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; }
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.mfp-loading.mfp-figure {
+  display: none; }
+
+.mfp-hide {
+  display: none !important; }
+.mfp-content iframe{
+	width:100%;
+	min-height:500px;
+}
+.mfp-preloader {
+  color: #cccccc;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; }
+
+.mfp-preloader a {
+  color: #cccccc; }
+
+.mfp-preloader a:hover {
+  color: white; }
+
+.mfp-s-ready .mfp-preloader {
+  display: none; }
+
+.mfp-s-error .mfp-content {
+  display: none; }
+
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  border: 0;
+   background:#FFF;
+  -webkit-appearance: none;
+  display: block;
+  padding: 0;
+  z-index: 1046; }
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 0 18px 10px;
+  color: white;
+  font-style: normal;
+  font-size: 28px;
+  outline:none;
+  font-family: 'Open Sans', sans-serif;		
+ }
+  .mfp-close:hover, .mfp-close:focus {
+    opacity: 1; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #333333; 
+ background: #FFF;
+  }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: white;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%; 
+}

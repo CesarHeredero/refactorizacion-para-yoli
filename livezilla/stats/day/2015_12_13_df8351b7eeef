@@ -1,0 +1,3419 @@
+<a name="top">
+<table cellpadding="0" cellspacing="0" width="1100">
+    <tr>
+        <td class="navigation">
+            <table cellspacing="0" cellpadding="1" width="100%">
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b><!--lang_stats_by_groups-->:</b></td>
+                                <td style="display:;"><a class="header_link" href="#gavailability"><!--lang_stats_group_availability--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gchats"><!--lang_stats_chats--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gfeedbacks"><!--lang_stats_feedbacks--></a></td>
+                                <td style="display:;"><a class="header_link" href="#ginvites"><!--lang_stats_chat_invites--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gduration"><!--lang_stats_chat_average_duration--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gresponsetime"><!--lang_stats_chat_response_times--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gtickets"><!--lang_stats_tickets--></a></td>
+                                <td style="display:;"><a class="header_link" href="#gticketresponsetime"><!--lang_stats_ticket_response_time--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b><!--lang_stats_by_operators-->:</b></td>
+                                <td style="display:;"><a class="header_link" href="#oavailability"><!--lang_stats_operator_availability--></a></td>
+                                <td style="display:;"><a class="header_link" href="#ochats"><!--lang_stats_chats--></a></td>
+                                <td style="display:;"><a class="header_link" href="#ofeedbacks"><!--lang_stats_feedbacks--></a></td>
+                                <td style="display:;"><a class="header_link" href="#oinvites"><!--lang_stats_chat_invites--></a></td>
+                                <td style="display:;"><a class="header_link" href="#oduration"><!--lang_stats_chat_average_duration--></a></td>
+                                <td style="display:;"><a class="header_link" href="#oresponsetime"><!--lang_stats_chat_response_times--></a></td>
+                                <td style="display:;"><a class="header_link" href="#otickets"><!--lang_stats_tickets--></a></td>
+                                <td style="display:;"><a class="header_link" href="#oticketresponsetime"><!--lang_stats_ticket_response_time--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="display:none;">
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b><!--lang_stats_by_months-->:</b></td>
+                                <td style="display:;"><a class="header_link" href="#mvisitors"><!--lang_stats_visitors_and_pages--></a></td>
+                                <td style="display:;"><a class="header_link" href="#mchats"><!--lang_stats_chats_and_availability--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="display:none;">
+                <td>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="width:120px;"><b><!--lang_stats_by_days-->:</b></td>
+                            <td style="display:;"><a class="header_link" href="#dvisitors"><!--lang_stats_visitors_and_pages--></a></td>
+                            <td style="display:;"><a class="header_link" href="#dchats"><!--lang_stats_chats_and_availability--></a></td>
+                        </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b><!--lang_stats_by_hours-->:</b></td>
+                                <td style="display:;"><a class="header_link" href="#hvisitors"><!--lang_stats_visitors_and_pages--></a></td>
+                                <td style="display:;"><a class="header_link" href="#hchats"><!--lang_stats_chats_and_availability--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b>TOPs <!--lang_stats_visitors--></b></td>
+                                <td style="display:;"><a class="header_link" href="#tsystems"><!--lang_stats_browser_and_system--></a></td>
+                                <td style="display:;"><a class="header_link" href="#torigins"><!--lang_stats_origin--></a></td>
+                                <td style="display:;"><a class="header_link" href="#tvisits"><!--lang_stats_visits--></a></td>
+                                <td style="display:;"><a class="header_link" href="#tisps"><!--lang_stats_isps--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width:120px;"><b>TOPs <!--lang_stats_pages--></b></td>
+                                <td style="display:;"><a class="header_link" href="#tpages"><!--lang_stats_pages--></a></td>
+                                <td style="display:;"><a class="header_link" href="#tentranceexit"><!--lang_stats_entrance_pages--> &amp; <!--lang_stats_exit_pages--></a></td>
+                                <td style="display:;"><a class="header_link" href="#tsearch"><!--lang_stats_search_engines--></a></td>
+                                <td style="display:;"><a class="header_link" href="#treferrers"><!--lang_stats_referrers--></a></td>
+                                <td style="display:;"><a class="header_link" href="#tdomains"><!--lang_stats_domains--></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+	<tr>
+		<td>
+            <br><br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line"><!--lang_stats_status_statistic_day--></td>
+					<td class="header_line" align="right"><script>document.write(new Date(2015,11,13,0, 00, 00, 0).toLocaleDateString());</script></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">&nbsp;&nbsp;<!--lang_stats_overview--></td>
+					<td class="header_nav_line" align="right">Status:&nbsp;&nbsp;<!--lang_stats_status_closed-->&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td>
+						<table cellspacing="0" cellpadding="0" class="main_stats" width="100%">
+							<tr>
+								<td class="main_stats_field" valign="top" width="24%">
+									<!--lang_stats_visitors-->
+									<table>
+										<tr>
+											<td><b>2</b>&nbsp;</td>
+										</tr>
+									</table>
+									<div>2 <em>unique</em> (100%)<br>2 <!--lang_stats_new--> (100%)<br>0 <!--lang_stats_recurring--> (0%)</div>
+								</td>
+								<td class="main_stats_field" valign="top" width="18%">
+									<!--lang_stats_bounce_rate-->
+									<table>
+										<tr>
+											<td><b>100%</b>&nbsp;</td>
+										</tr>
+									</table>
+									<div>2 <!--lang_stats_in_total--></div>
+								</td>
+								<td class="main_stats_field" valign="top" width="18%">
+									<!--lang_stats_conversion_rate-->
+									<table>
+										<tr>
+											<td><b>0%</b>&nbsp;</td>
+										</tr>
+									</table>
+									<div>0 <!--lang_stats_in_total--></div>
+								</td>
+								<td class="main_stats_field" valign="top" width="17%">
+									Chats
+									<table>
+										<tr>
+											<td><b>0</b>&nbsp;</td>
+										</tr>
+									</table>
+									<div>00:00:00 <!--lang_stats_chat_average_waiting_time--></div></td>
+								<td class="main_stats_field" valign="top" width="*">
+									<!--lang_stats_operator_availability-->
+									<table>
+										<tr>
+											<td><b>0%</b>&nbsp;</td>
+										</tr>
+									</table>
+									<div>00:00:00 <!--lang_stats_of--> 24:00:00</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><br>
+						<table cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="33%" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*"><!--lang_stats_visitors--></td>
+					<td align="left" class="bt_column_header" width="85"><!--lang_stats_value--></td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP><!--lang_stats_page_impressions--></td>
+					<td align="left" NOWRAP>2</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_pages_per_visitor--></td>
+					<td align="left" NOWRAP>1</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_browser_instances--></td>
+					<td align="left" NOWRAP>4</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_browser_instances_per_visitor--></td>
+					<td align="left" NOWRAP>2</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_average_time_on_site--></td>
+					<td align="left" NOWRAP>00:00:00</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_average_time_on_page--></td>
+					<td align="left" NOWRAP>00:00:00</td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+								<td width="10"></td>
+								<td valign="top" width="*"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Chats</td>
+					<td align="left" class="bt_column_header" width="85"><!--lang_stats_value--></td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP><!--lang_stats_chat_page_opened--></td>
+					<td align="left" NOWRAP>2</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats</td>
+					<td align="left" NOWRAP>0</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats <!--lang_stats_accepted--></td>
+					<td align="left" NOWRAP>0 (0%)</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats <!--lang_stats_declined--></td>
+					<td align="left" NOWRAP>0  (0%)</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP>Chats <!--lang_stats_missed--></td>
+					<td align="left" NOWRAP>0  (0%)</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_chat_average_time--></td>
+					<td align="left" NOWRAP>00:00:00</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_chat_average_waiting_time--></td>
+					<td align="left" NOWRAP>00:00:00</td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+								<td width="10"></td>
+								<td width="33%" valign="top"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*"><!--lang_stats_traffic_sources--></td>
+					<td align="left" class="bt_column_header" width="85"><!--lang_stats_value--></td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP><!--lang_stats_search_engines--></td>
+					<td align="left" NOWRAP>0 (0%)</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_referrer--></td>
+					<td align="left" NOWRAP>2 (100%)</td>
+				</tr>
+
+				<tr>
+					<td NOWRAP><!--lang_stats_direct_access--></td>
+					<td align="left" NOWRAP>0 (0%)</td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header"></td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="*">Javascript</td>
+					<td align="left" class="bt_column_header" width="85"><!--lang_stats_value--></td>
+				</tr>
+				
+				<tr>
+					<td NOWRAP><!--lang_stats_status_activated--></td>
+					<td align="left" NOWRAP>2 (100%)</td>
+				</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="ogoals"><br></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_goals--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_goals--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top"></td>
+		<td NOWRAP valign="top"><!--lang_stats_none--></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+    	<tr>
+		<td>
+			<a name="ggroups"></a>
+			<br><br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td colspan="2" class="header_line"><!--lang_stats_by_groups--></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="display:;"><a href="#gavailability"><!--lang_stats_group_availability--></a></td>
+								<td style="display:;"><a href="#gchats"><!--lang_stats_chats--></a></td>
+                                <td style="display:;"><a href="#gfeedbacks"><!--lang_stats_feedbacks--></a></td>
+                                <td style="display:;"><a href="#ginvites"><!--lang_stats_chat_invites--></a></td>
+								<td style="display:;"><a href="#gduration"><!--lang_stats_chat_average_duration--></a></td>
+								<td style="display:;"><a href="#gresponsetime"><!--lang_stats_chat_response_times--></a></td>
+                                <td style="display:;"><a href="#gtickets"><!--lang_stats_tickets--></a></td>
+                                <td style="display:;"><a href="#gticketresponsetime"><!--lang_stats_ticket_response_time--></a></td>
+							</tr>
+						</table>
+					</td>
+                    <td class="header_nav_line" style="text-align:right;"><a href="#top"><!--lang_stats_top--></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="gavailability"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_group_availability--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_availability--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="gchats"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header">Chats</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_description_operator_chats--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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QmIBIAqJhewb/AA1IGESCwBRjKB3GPlFG4Bbzk0yOoISC0Ti7fqQCgvFABCF320BIAp3sQAQhcQCQBQSCyNXR0fH1q1bh4+0tbV98cUXBw4c+Oqrr64//vrxrVu3dnR03OQSNzzgr84P/C0VaU8A+NsWLlz4t8b/qfMDf4vEQmra29t37dpVXV196dKlfD6/aNGi/fv3Nzc3hxC2bNny0EMPhRD6+vq2bdt26dKlurq6Z599dvAb29razp4929TU1Nra+tNPP+Vyudra2qeffvrAgQNnz5597LHHPvnkk8uXL+fz+b6+vhBCb2/vxx9/XCqVisXiPffcs3LlymsOCCEMP9XcuXPPnz/f1NTU0dGxe/fuMWPGXLhwYfz48atXr/72229PnDgxMDAwderUpqamvr6+Tz/9tFgsDgwMjBs37qmnnho7dmw6P00YeSQWUjNq1KhTp05t2LChurr6/fffP3ny5PXHnD17dsOGDePGjdu8efOhQ4eGP3Xu3Lk9e/asW7euoqJix44du3fvrq6uDiEcOnSot7d37dq1/f39b7zxRgihurr6+eefH/yu119/feLEidcccM2pjh49OmHChBDC6NGjjx8//vLLL1dXV7/zzjutra3nz59/4YUXQggfffTRwYMHi8VidXX1qlWrQgiHDx/u7u6WWBgisZCmmTNnDnZx1qxZFy9evOEB48aNCyHMnj27UChMnDhx6Kljx47NnTu3oqIihPDoo4+GENra2kII586dmzVrVgihqqpqxowZIYRisfj555/39/dXVFT09fWdOnXqmgOuOdXgXfLgVaZPnz44w3w+39nZefr06c2bNw8+dfXq1TvvvPO7777btm3bHXfc0dDQUFtbG+snBbcgiYWR6M8//xx8MPyDRa//kNH/d1/74AH79u3L5XKrV68OIbz22ms3PMNfnWr06NHDv2xoaBjM+ZD169efPn366NGj77333hNPPDFv3rybTwnKh3cUQ5rOnDnT398fQujs7Jw6derly5dDCL29vUM3kUMHnDp1qr6+fvj3zp07t6Ojo1gshhC++eabr7/+enB8ypQpnZ2dIYSenp7Tp0+HEPr6+vL5fAjh8OHDPT09g/ejww+45lS//vrrDWc7derUI0eO/PHHHyGE7du3FwqFgwcPnjhxYubMmStXrly8ePEN17qhbLmLhTRNnz79yy+/7OrqqqmpWbFixbFjx95+++0pU6bMmTNnYGBgYGBgxowZLS0t3d3dNTU18+fP//HHH4e+d9q0aQ8++OCmTZtGjx5dU1PzzDPP/PLLLyGEhoaGn3/++d13362rq5s9e3apVFq4cOGHH3545syZGTNmLF269ODBgzU1NcMPuOZUd99992+//Xb9bKdNm7ZgwYJNmzaNGjXq9ttvr6+vHzNmTEtLy8DAQC6Xq6ysfPLJJ5P72cGI5wMUITUdHR3ff//94PotkD0WigEgCnexABCFu1gAiEJiASAKiQWAKCQWAKKQWACIQmIBIAqJBYAoJBYAokjuM4oLhULsS1zzIekAkKJE/wxAZWVlvJMP/pEQABghLBQDQBQSCwBRSCwARJHan2Q/Wfn0NSOzi/9KZSYAEEOad7EXhgkh7N+/P8XJAMA/y0IxAEQhsQAQhcQCQBSpvd0phDB58uQUrw4AUaWW2NnFf3l/EwAZluZd7KJFi1K8OgBE5bVYAIhCYgEgCokFgCgkFgCiSPTtTv6kKwDlI1cqldKeAwBkkIViAIhCYgEgCokFgCgkFgCikFgAiEJiASCKfwMzBWJ3IlmAqwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="gfeedbacks"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_feedbacks--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_feedbacks--> ()</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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QmIBIAqJhewb/AA1IGESCwBRjKB3GPlFG4Bbzk0yOoISC0Ti7fqQCgvFABCF320BIAp3sQAQhcQCQBQSCyNXR0fH1q1bh4+0tbV98cUXBw4c+Oqrr64//vrxrVu3dnR03OQSNzzgr84P/C0VaU8A+NsWLlz4t8b/qfMDf4vEQmra29t37dpVXV196dKlfD6/aNGi/fv3Nzc3hxC2bNny0EMPhRD6+vq2bdt26dKlurq6Z599dvAb29razp4929TU1Nra+tNPP+Vyudra2qeffvrAgQNnz5597LHHPvnkk8uXL+fz+b6+vhBCb2/vxx9/XCqVisXiPffcs3LlymsOCCEMP9XcuXPPnz/f1NTU0dGxe/fuMWPGXLhwYfz48atXr/72229PnDgxMDAwderUpqamvr6+Tz/9tFgsDgwMjBs37qmnnho7dmw6P00YeSQWUjNq1KhTp05t2LChurr6/fffP3ny5PXHnD17dsOGDePGjdu8efOhQ4eGP3Xu3Lk9e/asW7euoqJix44du3fvrq6uDiEcOnSot7d37dq1/f39b7zxRgihurr6+eefH/yu119/feLEidcccM2pjh49OmHChBDC6NGjjx8//vLLL1dXV7/zzjutra3nz59/4YUXQggfffTRwYMHi8VidXX1qlWrQgiHDx/u7u6WWBgisZCmmTNnDnZx1qxZFy9evOEB48aNCyHMnj27UChMnDhx6Kljx47NnTu3oqIihPDoo4+GENra2kII586dmzVrVgihqqpqxowZIYRisfj555/39/dXVFT09fWdOnXqmgOuOdXgXfLgVaZPnz44w3w+39nZefr06c2bNw8+dfXq1TvvvPO7777btm3bHXfc0dDQUFtbG+snBbcgiYWR6M8//xx8MPyDRa//kNH/d1/74AH79u3L5XKrV68OIbz22ms3PMNfnWr06NHDv2xoaBjM+ZD169efPn366NGj77333hNPPDFv3rybTwnKh3cUQ5rOnDnT398fQujs7Jw6derly5dDCL29vUM3kUMHnDp1qr6+fvj3zp07t6Ojo1gshhC++eabr7/+enB8ypQpnZ2dIYSenp7Tp0+HEPr6+vL5fAjh8OHDPT09g/ejww+45lS//vrrDWc7derUI0eO/PHHHyGE7du3FwqFgwcPnjhxYubMmStXrly8ePEN17qhbLmLhTRNnz79yy+/7OrqqqmpWbFixbFjx95+++0pU6bMmTNnYGBgYGBgxowZLS0t3d3dNTU18+fP//HHH4e+d9q0aQ8++OCmTZtGjx5dU1PzzDPP/PLLLyGEhoaGn3/++d13362rq5s9e3apVFq4cOGHH3545syZGTNmLF269ODBgzU1NcMPuOZUd99992+//Xb9bKdNm7ZgwYJNmzaNGjXq9ttvr6+vHzNmTEtLy8DAQC6Xq6ysfPLJJ5P72cGI5wMUITUdHR3ff//94PotkD0WigEgCnexABCFu1gAiEJiASAKiQWAKCQWAKKQWACIQmIBIAqJBYAoJBYAokjuM4oLhULsS1zzIekAkKJE/wxAZWVlvJMP/pEQABghLBQDQBQSCwBRSCwARJHan2Q/Wfn0NSOzi/9KZSYAEEOad7EXhgkh7N+/P8XJAMA/y0IxAEQhsQAQhcQCQBSpvd0phDB58uQUrw4AUaWW2NnFf3l/EwAZluZd7KJFi1K8OgBE5bVYAIhCYgEgCokFgCgkFgCiSPTtTv6kKwDlI1cqldKeAwBkkIViAIhCYgEgCokFgCgkFgCikFgAiEJiASCKfwMzBWJ3IlmAqwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="ginvites"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_invites--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_invites--> (<!--lang_stats_declined--> / <!--lang_stats_accepted--> / <!--lang_stats_auto-->)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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QmIBIAqJhewb/AA1IGESCwBRjKB3GPlFG4Bbzk0yOoISC0Ti7fqQCgvFABCF320BIAp3sQAQhcQCQBQSCyNXR0fH1q1bh4+0tbV98cUXBw4c+Oqrr64//vrxrVu3dnR03OQSNzzgr84P/C0VaU8A+NsWLlz4t8b/qfMDf4vEQmra29t37dpVXV196dKlfD6/aNGi/fv3Nzc3hxC2bNny0EMPhRD6+vq2bdt26dKlurq6Z599dvAb29razp4929TU1Nra+tNPP+Vyudra2qeffvrAgQNnz5597LHHPvnkk8uXL+fz+b6+vhBCb2/vxx9/XCqVisXiPffcs3LlymsOCCEMP9XcuXPPnz/f1NTU0dGxe/fuMWPGXLhwYfz48atXr/72229PnDgxMDAwderUpqamvr6+Tz/9tFgsDgwMjBs37qmnnho7dmw6P00YeSQWUjNq1KhTp05t2LChurr6/fffP3ny5PXHnD17dsOGDePGjdu8efOhQ4eGP3Xu3Lk9e/asW7euoqJix44du3fvrq6uDiEcOnSot7d37dq1/f39b7zxRgihurr6+eefH/yu119/feLEidcccM2pjh49OmHChBDC6NGjjx8//vLLL1dXV7/zzjutra3nz59/4YUXQggfffTRwYMHi8VidXX1qlWrQgiHDx/u7u6WWBgisZCmmTNnDnZx1qxZFy9evOEB48aNCyHMnj27UChMnDhx6Kljx47NnTu3oqIihPDoo4+GENra2kII586dmzVrVgihqqpqxowZIYRisfj555/39/dXVFT09fWdOnXqmgOuOdXgXfLgVaZPnz44w3w+39nZefr06c2bNw8+dfXq1TvvvPO7777btm3bHXfc0dDQUFtbG+snBbcgiYWR6M8//xx8MPyDRa//kNH/d1/74AH79u3L5XKrV68OIbz22ms3PMNfnWr06NHDv2xoaBjM+ZD169efPn366NGj77333hNPPDFv3rybTwnKh3cUQ5rOnDnT398fQujs7Jw6derly5dDCL29vUM3kUMHnDp1qr6+fvj3zp07t6Ojo1gshhC++eabr7/+enB8ypQpnZ2dIYSenp7Tp0+HEPr6+vL5fAjh8OHDPT09g/ejww+45lS//vrrDWc7derUI0eO/PHHHyGE7du3FwqFgwcPnjhxYubMmStXrly8ePEN17qhbLmLhTRNnz79yy+/7OrqqqmpWbFixbFjx95+++0pU6bMmTNnYGBgYGBgxowZLS0t3d3dNTU18+fP//HHH4e+d9q0aQ8++OCmTZtGjx5dU1PzzDPP/PLLLyGEhoaGn3/++d13362rq5s9e3apVFq4cOGHH3545syZGTNmLF269ODBgzU1NcMPuOZUd99992+//Xb9bKdNm7ZgwYJNmzaNGjXq9ttvr6+vHzNmTEtLy8DAQC6Xq6ysfPLJJ5P72cGI5wMUITUdHR3ff//94PotkD0WigEgCnexABCFu1gAiEJiASAKiQWAKCQWAKKQWACIQmIBIAqJBYAoJBYAokjuM4oLhULsS1zzIekAkKJE/wxAZWVlvJMP/pEQABghLBQDQBQSCwBRSCwARJHan2Q/Wfn0NSOzi/9KZSYAEEOad7EXhgkh7N+/P8XJAMA/y0IxAEQhsQAQhcQCQBSpvd0phDB58uQUrw4AUaWW2NnFf3l/EwAZluZd7KJFi1K8OgBE5bVYAIhCYgEgCokFgCgkFgCiSPTtTv6kKwDlI1cqldKeAwBkkIViAIhCYgEgCokFgCgkFgCikFgAiEJiASCKfwMzBWJ3IlmAqwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="gduration"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_average_duration--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_average_duration--> (hh:mm:ss) / <!--lang_stats_chat_average_waiting_time--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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" />
+        </td>
+	</tr>
+</table>
+
+<br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_total_duration--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_total_duration--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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WMUCQBQSCwBRSCxk38gHqAEJk1gAiGIc3WHkD20A/nVukNFxlFggErfrQypcKAaAKPxtCwBRWMUCQBQSCwBRSCyMX52dndu3bx870tHR8dFHHx05cmTPnj3XHn/t+Pbt2zs7O29wiuse8GevD/wlFWlPAPjLGhsb/9L4P/X6wF8isZCaEydO7Nu3r6qq6uLFi/l8ftGiRYcPH163bl0IYdu2bQ888EAIYWBgYMeOHRcvXpw2bdqTTz458oMdHR29vb1r1qxpb2//+uuvc7lcbW3t448/fuTIkd7e3tWrV7///vuXLl3K5/MDAwMhhMuXL+/atatUKg0NDd11112rVq266oAQwtiXWrhw4blz59asWdPZ2XngwIFJkyb19fXdfPPNGzZs+Oyzz06fPj08PDx79uw1a9YMDAx88MEHQ0NDw8PD1dXVjz322OTJk9P5bcL4I7GQmrKysjNnzmzatKmqquqdd9756aefrj2mt7d306ZN1dXVW7duPXbs2Ninzp49e/DgwY0bN1ZUVLS1tR04cKCqqiqEcOzYscuXLz/33HODg4OvvvpqCKGqquqpp54a+alXXnll6tSpVx1w1UudPHlyypQpIYTy8vIff/zxpZdeqqqqevPNN9vb28+dO/f000+HEN57772jR48ODQ1VVVWtX78+hHD8+PH+/n6JhVESC2maN2/eSBfnz59/4cKF6x5QXV0dQliwYEGhUJg6deroU6dOnVq4cGFFRUUI4eGHHw4hdHR0hBDOnj07f/78EMJNN91UX18fQhgaGvrwww8HBwcrKioGBgbOnDlz1QFXvdTIKnnkLHPnzh2ZYT6f7+rq6u7u3rp168hTv//+++233/7555/v2LHjtttua2hoqK2tjfWbgn8hiYXx6MqVKyMPxn6w6LUfMvq/7msfOeDLL7/M5XIbNmwIIbz88svXfYU/e6ny8vKx/9nQ0DCS81EvvPBCd3f3yZMn33777bVr195xxx03nhJMHO4ohjT19PQMDg6GELq6umbPnn3p0qUQwuXLl0cXkaMHnDlzpq6ubuzPLly4sLOzc2hoKITw6aeffvLJJyPjs2bN6urqCiEUi8Xu7u4QwsDAQD6fDyEcP368WCyOrEfHHnDVS3333XfXne3s2bO///77P/74I4Swc+fOQqFw9OjR06dPz5s3b9WqVYsXL77utW6YsKxiIU1z5879+OOPz58/X1NTs3LlylOnTm3ZsmXWrFm33HLL8PDw8PBwfX19a2trf39/TU3N3Xff/dVXX43+7Jw5c+6///6Wlpby8vKamponnnji22+/DSE0NDR88803b7311rRp0xYsWFAqlRobG999992enp76+vqlS5cePXq0pqZm7AFXvdSdd975888/XzvbOXPm3HPPPS0tLWVlZbfeemtdXd2kSZNaW1uHh4dzuVxlZeWjjz6a3O8Oxj0foAip6ezs3L9//8j1WyB7XCgGgCisYgEgCqtYAIhCYgEgCokFgCgkFgCikFgAiEJiASAKiQWAKCQWAKJI7jOKC4VC7FNc9SHpAJCiRL8GoLKyMt6Lj3xJCACMEy4UA0AUEgsAUUgsAESR2ley/1T5+FUjC4b+k8pMACCGNFexfWOEEA4fPpziZADgn+VCMQBEIbEAEIXEAkAUqd3uFEKYOXNmimcHgKhSS+yCof+4vwmADEtzFbto0aIUzw4AUXkvFgCikFgAiEJiASAKiQWAKBK93clXugIwceRKpVLacwCADHKhGACikFgAiEJiASAKiQWAKCQWAKKQWACI4r/yy2idDPqTvwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="gresponsetime"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_response_times--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_response_times--> (hh:mm:ss) / <!--lang_stats_total_messages--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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WMUCQBQSCwBRSCxk38gHqAEJk1gAiGIc3WHkD20A/nVukNFxlFggErfrQypcKAaAKPxtCwBRWMUCQBQSCwBRSCyMX52dndu3bx870tHR8dFHHx05cmTPnj3XHn/t+Pbt2zs7O29wiuse8GevD/wlFWlPAPjLGhsb/9L4P/X6wF8isZCaEydO7Nu3r6qq6uLFi/l8ftGiRYcPH163bl0IYdu2bQ888EAIYWBgYMeOHRcvXpw2bdqTTz458oMdHR29vb1r1qxpb2//+uuvc7lcbW3t448/fuTIkd7e3tWrV7///vuXLl3K5/MDAwMhhMuXL+/atatUKg0NDd11112rVq266oAQwtiXWrhw4blz59asWdPZ2XngwIFJkyb19fXdfPPNGzZs+Oyzz06fPj08PDx79uw1a9YMDAx88MEHQ0NDw8PD1dXVjz322OTJk9P5bcL4I7GQmrKysjNnzmzatKmqquqdd9756aefrj2mt7d306ZN1dXVW7duPXbs2Ninzp49e/DgwY0bN1ZUVLS1tR04cKCqqiqEcOzYscuXLz/33HODg4OvvvpqCKGqquqpp54a+alXXnll6tSpVx1w1UudPHlyypQpIYTy8vIff/zxpZdeqqqqevPNN9vb28+dO/f000+HEN57772jR48ODQ1VVVWtX78+hHD8+PH+/n6JhVESC2maN2/eSBfnz59/4cKF6x5QXV0dQliwYEGhUJg6deroU6dOnVq4cGFFRUUI4eGHHw4hdHR0hBDOnj07f/78EMJNN91UX18fQhgaGvrwww8HBwcrKioGBgbOnDlz1QFXvdTIKnnkLHPnzh2ZYT6f7+rq6u7u3rp168hTv//+++233/7555/v2LHjtttua2hoqK2tjfWbgn8hiYXx6MqVKyMPxn6w6LUfMvq/7msfOeDLL7/M5XIbNmwIIbz88svXfYU/e6ny8vKx/9nQ0DCS81EvvPBCd3f3yZMn33777bVr195xxx03nhJMHO4ohjT19PQMDg6GELq6umbPnn3p0qUQwuXLl0cXkaMHnDlzpq6ubuzPLly4sLOzc2hoKITw6aeffvLJJyPjs2bN6urqCiEUi8Xu7u4QwsDAQD6fDyEcP368WCyOrEfHHnDVS3333XfXne3s2bO///77P/74I4Swc+fOQqFw9OjR06dPz5s3b9WqVYsXL77utW6YsKxiIU1z5879+OOPz58/X1NTs3LlylOnTm3ZsmXWrFm33HLL8PDw8PBwfX19a2trf39/TU3N3Xff/dVXX43+7Jw5c+6///6Wlpby8vKamponnnji22+/DSE0NDR88803b7311rRp0xYsWFAqlRobG999992enp76+vqlS5cePXq0pqZm7AFXvdSdd975888/XzvbOXPm3HPPPS0tLWVlZbfeemtdXd2kSZNaW1uHh4dzuVxlZeWjjz6a3O8Oxj0foAip6ezs3L9//8j1WyB7XCgGgCisYgEgCqtYAIhCYgEgCokFgCgkFgCikFgAiEJiASAKiQWAKCQWAKJI7jOKC4VC7FNc9SHpAJCiRL8GoLKyMt6Lj3xJCACMEy4UA0AUEgsAUUgsAESR2ley/1T5+FUjC4b+k8pMACCGNFexfWOEEA4fPpziZADgn+VCMQBEIbEAEIXEAkAUqd3uFEKYOXNmimcHgKhSS+yCof+4vwmADEtzFbto0aIUzw4AUXkvFgCikFgAiEJiASAKiQWAKBK93clXugIwceRKpVLacwCADHKhGACikFgAiEJiASAKiQWAKCQWAKKQWACI4r/yy2idDPqTvwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="gtickets"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_tickets--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_new_tickets--> (<!--lang_stats_resolved_tickets--> / <!--lang_stats_incoming_messages--> / <!--lang_stats_outgoing_messages-->)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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QmIBIAqJhewb/AA1IGESCwBRjKB3GPlFG4Bbzk0yOoISC0Ti7fqQCgvFABCF320BIAp3sQAQhcQCQBQSCyNXR0fH1q1bh4+0tbV98cUXBw4c+Oqrr64//vrxrVu3dnR03OQSNzzgr84P/C0VaU8A+NsWLlz4t8b/qfMDf4vEQmra29t37dpVXV196dKlfD6/aNGi/fv3Nzc3hxC2bNny0EMPhRD6+vq2bdt26dKlurq6Z599dvAb29razp4929TU1Nra+tNPP+Vyudra2qeffvrAgQNnz5597LHHPvnkk8uXL+fz+b6+vhBCb2/vxx9/XCqVisXiPffcs3LlymsOCCEMP9XcuXPPnz/f1NTU0dGxe/fuMWPGXLhwYfz48atXr/72229PnDgxMDAwderUpqamvr6+Tz/9tFgsDgwMjBs37qmnnho7dmw6P00YeSQWUjNq1KhTp05t2LChurr6/fffP3ny5PXHnD17dsOGDePGjdu8efOhQ4eGP3Xu3Lk9e/asW7euoqJix44du3fvrq6uDiEcOnSot7d37dq1/f39b7zxRgihurr6+eefH/yu119/feLEidcccM2pjh49OmHChBDC6NGjjx8//vLLL1dXV7/zzjutra3nz59/4YUXQggfffTRwYMHi8VidXX1qlWrQgiHDx/u7u6WWBgisZCmmTNnDnZx1qxZFy9evOEB48aNCyHMnj27UChMnDhx6Kljx47NnTu3oqIihPDoo4+GENra2kII586dmzVrVgihqqpqxowZIYRisfj555/39/dXVFT09fWdOnXqmgOuOdXgXfLgVaZPnz44w3w+39nZefr06c2bNw8+dfXq1TvvvPO7777btm3bHXfc0dDQUFtbG+snBbcgiYWR6M8//xx8MPyDRa//kNH/d1/74AH79u3L5XKrV68OIbz22ms3PMNfnWr06NHDv2xoaBjM+ZD169efPn366NGj77333hNPPDFv3rybTwnKh3cUQ5rOnDnT398fQujs7Jw6derly5dDCL29vUM3kUMHnDp1qr6+fvj3zp07t6Ojo1gshhC++eabr7/+enB8ypQpnZ2dIYSenp7Tp0+HEPr6+vL5fAjh8OHDPT09g/ejww+45lS//vrrDWc7derUI0eO/PHHHyGE7du3FwqFgwcPnjhxYubMmStXrly8ePEN17qhbLmLhTRNnz79yy+/7OrqqqmpWbFixbFjx95+++0pU6bMmTNnYGBgYGBgxowZLS0t3d3dNTU18+fP//HHH4e+d9q0aQ8++OCmTZtGjx5dU1PzzDPP/PLLLyGEhoaGn3/++d13362rq5s9e3apVFq4cOGHH3545syZGTNmLF269ODBgzU1NcMPuOZUd99992+//Xb9bKdNm7ZgwYJNmzaNGjXq9ttvr6+vHzNmTEtLy8DAQC6Xq6ysfPLJJ5P72cGI5wMUITUdHR3ff//94PotkD0WigEgCnexABCFu1gAiEJiASAKiQWAKCQWAKKQWACIQmIBIAqJBYAoJBYAokjuM4oLhULsS1zzIekAkKJE/wxAZWVlvJMP/pEQABghLBQDQBQSCwBRSCwARJHan2Q/Wfn0NSOzi/9KZSYAEEOad7EXhgkh7N+/P8XJAMA/y0IxAEQhsQAQhcQCQBSpvd0phDB58uQUrw4AUaWW2NnFf3l/EwAZluZd7KJFi1K8OgBE5bVYAIhCYgEgCokFgCgkFgCiSPTtTv6kKwDlI1cqldKeAwBkkIViAIhCYgEgCokFgCgkFgCikFgAiEJiASCKfwMzBWJ3IlmAqwAAAABJRU5ErkJggg==" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="gticketresponsetime"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_ticket_response_time--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">publicidadcines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">-</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_ticket_response_time--> / <!--lang_stats_ticket_resolve_time--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+
+		<tr>
+		<td>
+			<a name="ooperators"></a>
+			<br><br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td colspan="2" class="header_line"><!--lang_stats_by_operators--></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="display:;"><a href="#oavailability"><!--lang_stats_operator_availability--></a></td>
+								<td style="display:;"><a href="#ochats"><!--lang_stats_chats--></a></td>
+                                <td style="display:;"><a href="#ofeedbacks"><!--lang_stats_feedbacks--></a></td>
+                                <td style="display:;"><a href="#oinvites"><!--lang_stats_chat_invites--></a></td>
+								<td style="display:;"><a href="#oduration"><!--lang_stats_chat_average_duration--></a></td>
+								<td style="display:;"><a href="#oresponsetime"><!--lang_stats_chat_response_times--></a></td>
+                                <td style="display:;"><a href="#otickets"><!--lang_stats_tickets--></a></td>
+                                <td style="display:;"><a href="#oticketresponsetime"><!--lang_stats_ticket_response_time--></a></td>
+							</tr>
+						</table>
+					</td>
+                    <td class="header_nav_line" style="text-align:right;"><a href="#top"><!--lang_stats_top--></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oavailability"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_operator_availability--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_availability--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="ochats"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header">Chats</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_description_operator_chats--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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ZLSJEgsE8bg+ZOFGMQCE8LMtAIRwFQsAISQWAEJILJTNN99889lnn+WeAvBeLADEaM89AHAb1Gq1r776qlKp9Pb29vf3z87ODgwMfPnll3fcccfc3Fx3d/crr7yyZs2a48ePT09PLy8v33PPPc8+++wnn3yytLS0vLx85513vvTSS2vXrs3994BSkVhY9X788cdTp04dPHiwvb392LFj58+f7+npaWtru3DhwltvvdXV1fX+++//8MMP165dm52dffXVV1NKH3/88fHjx7u6ukZHR1NK586dW1hYkFi4vSQWVr3vv/++v7+/vb09pbR///6JiYnLly+nlDZv3tzV1ZVSqlari4uLly9fvnTp0pEjR67/U9u2bavVakePHt22bdvAwEBvb2/GvwKUksRCGfzlQxVtbW1/WhkYGNi/f//KH4eHhy9dunT+/PkPPvjghRde2L59e+yU0GI8UQyrXn9//3fffbe0tJRS+vzzz8+ePfuX37Z169bJyck//vgjpTQ2Nnby5Mnp6ektW7Y8/fTTg4ODFy9eLHRoaAGuYmHV27Rp01NPPXX48OG2trZ169Y99NBDP/30083f9sADD+zcufPw4cNr1qy5//77H3744fHx8eXl5Uql0tHR8eKLLxY/OZSbQzsAEMKNYgAIIbEAEEJiASCExAJACIkFgBASCwAhJBYAQkgsAISQWAAIIbEAEKK4zyiu1+vRW/T19UVvAQB/U6G/BqCjoyPuX37914wAQJNwoxgAQkgsAISQWAAIke1Xsl/s+NefVrYu/TvLJAAQIedV7NwNUkpff/11xmEA4PZyoxgAQkgsAISQWAAIke1xp5TSxo0bM+4OAKGyJXbr0r893wRAieW8in3ssccy7g4AobwXCwAhJBYAQkgsAISQWAAIUejjTn6lKwCto9JoNHLPAAAl5EYxAISQWAAIIbEAEEJiASCExAJACIkFgBD/AerCGvRMVHjyAAAAAElFTkSuQmCC" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="ofeedbacks"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_feedbacks--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_feedbacks--> ()</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="oinvites"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_invites--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_invites--> (<!--lang_stats_declined--> / <!--lang_stats_accepted--> / <!--lang_stats_auto-->)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAADSCAIAAABIJBp/AAAJuklEQVR4nO3d0WvVdR/A8e9xa3PNtWNKUyRrJpW7sKLNlmYXXSQIRdRzE2ME4UUgURddRf9CEEI3htSN7aIn2JV0YxcG5nFS3UhuJDmX2Flb0IyVM3aeC2GPZI9Ej5/f9+x3Xq+r43er70eI3vv9zu97Vmk0Gqk5VCqV5hkGyqRer/f19eWeAlrOmtwDAEA5SSwAhGiie7NuFANQJq5iASCExAJACIkFgBASC+VXr9dzjwCtqL3g/WZmZsbHx6vV6ujoaMFbA0CRir6KPXHixPDwcMGbAkDxik7syMhIb29vwZsCQPG8Fwvl59MTIYui34v9S5VK5cYXV69eXfnS3NzcyuuNGzdat27dunXrTbXe0dGR/ocMH6g0NTVVq9Vuftzp0UcfPX36dMHDAMD/4xaJdaMYAEIUeqO4Xq+PjY0tLS0tLi6+9957Q0NDe/bsKXIAaE1zc3M33tcCilFoYvv6+t58880idwSAXNwoBoAQEgsAISQWys8bsZCFxAJACIkFgBASCwAhJBbK78YPfgMKI7EAEEJiASCExAJACImF8nMuFrKQWAAIIbEAEEJiASCExEL5ORcLWUgsAISQWAAIIbEAEEJiofyci4UsJBYAQkgsAISQWAAIIbFQfs7FQhYSCwAhJBYAQkgsAISQWCg/52IhC4kFgBASCwAhmiOxlUqqVE7nngIAbqPmSGyjkRqNXbmngLJyLhayaI7EAkDpSCwAhJBYAAghsVB+zsVCFhILACEkFgBCSCwAhJBYKD/nYiELiQWAEBILACEkFgBCSCyUn3OxkIXEAkAIiQWAEBILACEkFsrPuVjIQmIBIITEAkAIiQWAEBIL5edcLGQhsQAQQmIBIITEQslt3769s7Ozs7Pz3nvvzT0LtBaJhTI7dOjQzMzMp59++tFHH83Ozr7zzju5J4IWIrFQZu++++66desWFxdffvnl7u7uI0eO/P7777mHglYhsVBmV65c6e7u3rRpU0qpp6fnt99+m56ezj0UtAqJhZJrNBodHR0rf7x69WrGYaClSCyUWbVa/fXXX9evX59SWlhYuOuuu3JPBC2kveD9Tp06debMmWvXrg0ODu7du7fg3aHVvP322wcPHrxw4UJKaXFx8Y033ujs7Mw9FLSKQq9i5+fna7Xaa6+99vrrr585c2Z+fr7I3aEFHThwoK+v7/nnn9+5c+eWLVsef/zx++67L/dQ0CoKvYo9d+7cjh072tvbU0o7duyYnJzcvXt3kQNAC7p48eLk5OTU1FRK6cEHH1y7dm3uiaBVFJrYhYWFarV6/XVPT8/CwkKRu0PL2rBhw3PPPZd7Cmg5hSa2UqmsvG40Gn9af+SRR3bt2pVSOn369MqXfv7555XXd999dyuvn726L8E/djn3AKxOezdPNOH/D5tq/RYqN6Yu2smTJ69cubJv376U0rFjx9avX//kk0+ufHVoaGhiYqKwYVajo0eP5h6BVemXX37p7e3NPQWr1cjISO4RVqtCr2IHBgY+/PDDZ555ptFofPvttwcOHChy9xLwHzr/TL1e7+vryz0FtJxCE1utVnft2nXo0KGU0u7du/1YDcXQV8ii0BvFt+ZGMQBl4tOdACCExAJACImF8qvX67lHgFYksQAQQmIBIITEAkAIiYXycy4WspBYAAghsQAQQmIBIITEQvk5FwtZSCwAhJBYAAghsQAQQmKh/JyLhSwkFgBCSCwAhJBYAAghsVB+zsVCFhILACEkFgBCSCwAhJBYKD/nYiELiQWAEBILACEkFgBCSCyUn3OxkIXEAkAIiQWAEM2R2EolVSoTuacAgNuoORLbaKRGYyj3FFBWzsVCFs2RWAAoHYkFgBASCwAhJBbKz7lYyEJiASCExAJACIkFgBASC+XnXCxkIbEAEEJiASCExAJACImF8nMuFrKQWAAIIbEAEEJiASCExEL5ORcLWUgsAISQWAAIIbEAEEJiofyci4UsJBYAQkgsAISQWAAIIbFQfs7FQhYSCwAhJBYAQkgsAISQWCg/52Ihi/aC95uZmRkfH69Wq6OjowVvDQBFKvoq9sSJE8PDwwVvCgDFKzqxIyMjvb29BW8KAMXzXiyUn3OxkEUR78XWarUvvvgipbR3794nnnji5m+oVCoppcHBwaGhoZTSxMTEypfm5+dXXm/YsMG6devWrVtvqvVbqDQajb/zfbfR1NRUrVa7+XGnSiXDMAAQxI1iAAhR6IVjvV4fGxtbWlpaXFysVqtDQ0N79uz57yiuYiFGvV73diwUr4mqJrEQRGIhCzeKASCExAJAiCa6N+tGMQBl4ioWAEJILACEkFgov+sfoAYUTGIBIEQTPWHkB20AVp1bZLSJEgsE8bg+ZOFGMQCE8LMtAIRwFQsAISQWAEJILJTNN99889lnn+WeAvBeLADEaM89AHAb1Gq1r776qlKp9Pb29vf3z87ODgwMfPnll3fcccfc3Fx3d/crr7yyZs2a48ePT09PLy8v33PPPc8+++wnn3yytLS0vLx85513vvTSS2vXrs3994BSkVhY9X788cdTp04dPHiwvb392LFj58+f7+npaWtru3DhwltvvdXV1fX+++//8MMP165dm52dffXVV1NKH3/88fHjx7u6ukZHR1NK586dW1hYkFi4vSQWVr3vv/++v7+/vb09pbR///6JiYnLly+nlDZv3tzV1ZVSqlari4uLly9fvnTp0pEjR67/U9u2bavVakePHt22bdvAwEBvb2/GvwKUksRCGfzlQxVtbW1/WhkYGNi/f//KH4eHhy9dunT+/PkPPvjghRde2L59e+yU0GI8UQyrXn9//3fffbe0tJRS+vzzz8+ePfuX37Z169bJyck//vgjpTQ2Nnby5Mnp6ektW7Y8/fTTg4ODFy9eLHRoaAGuYmHV27Rp01NPPXX48OG2trZ169Y99NBDP/30083f9sADD+zcufPw4cNr1qy5//77H3744fHx8eXl5Uql0tHR8eKLLxY/OZSbQzsAEMKNYgAIIbEAEEJiASCExAJACIkFgBASCwAhJBYAQkgsAISQWAAIIbEAEKK4zyiu1+vRW/T19UVvAQB/U6G/BqCjoyPuX37914wAQJNwoxgAQkgsAISQWAAIke1Xsl/s+NefVrYu/TvLJAAQIedV7NwNUkpff/11xmEA4PZyoxgAQkgsAISQWAAIke1xp5TSxo0bM+4OAKGyJXbr0r893wRAieW8in3ssccy7g4AobwXCwAhJBYAQkgsAISQWAAIUejjTn6lKwCto9JoNHLPAAAl5EYxAISQWAAIIbEAEEJiASCExAJACIkFgBD/AerCGvRMVHjyAAAAAElFTkSuQmCC" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oduration"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_average_duration--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_average_duration--> (hh:mm:ss) / <!--lang_stats_chat_average_waiting_time--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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NooBIITXtgAQwlUsAISQWAAIIbFQNd98881HH32UexWAe7EAEKMn9wKAW6DRaHz11VdFUQwMDIyMjCwsLNTr9c8///y2225bXFy88847X3rppa6urpmZmfPnz6+trW3ZsuWZZ545evTo6urq2traHXfc8eKLL95+++25/x5QKRILG96vv/568uTJQ4cO9fT0HD9+/Ny5c/39/d3d3T/99NPrr7/e19d3+PDhX3755cqVKwsLCy+//HJK6cMPP5yZmenr65ucnEwpnT59enl5WWLh1pJY2PB+/PHHkZGRnp6elNL+/fvn5ubm5+dTSvfee29fX19KqVarrayszM/PX7x48b333rv2u3bs2NFoND744IMdO3bU6/WBgYGMfwWoJImFKvjbhyq6u7v/MlKv1/fv37/+y4mJiYsXL547d+7dd9994YUX7r///thVQofxRDFseCMjIz/88MPq6mpK6ZNPPvnuu+/+9su2bdt25syZq1evppSmpqZOnDhx/vz54eHhJ598cmxs7Oeffy510dABXMXChrd169YnnnjiyJEj3d3dd9111wMPPPDbb7/d+GX33XffQw89dOTIka6uru3btz/44IPT09Nra2tFUfT29h44cKD8lUO1ObQDACFsFANACIkFgBASCwAhJBYAQkgsAISQWAAIIbEAEEJiASCExAJACIkFgBDlvUdxs9mMnmJoaCh6CgD4h0r9MQC9vb1xf/i1HzMCAG3CRjEAhJBYAAghsQAQItuPZP+5919/Gdm2+u8sKwGACDmvYhevk1L6+uuvMy4GAG4tG8UAEEJiASCExAJAiGyPO6WUNm/enHF2AAiVLbHbVv/t+SYAKiznVezo6GjG2QEglHuxABBCYgEghMQCQAiJBYAQpT7u5Ee6AtA5ilarlXsNAFBBNooBIITEAkAIiQWAEBILACEkFgBCSCwAhPgPHgMZ0zRd2A0AAAAASUVORK5CYII=" />
+        </td>
+	</tr>
+</table>
+
+<br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_total_duration--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_total_duration--> (hh:mm:ss)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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62S0gxILBPG4PmRhoxgAQvjdFgBCuIoFgBASCwAhJBaq5pNPPjl27FjuVQDuxQJAjL7cCwBugkaj8dFHHxVFMTQ0NDo6eunSpXq9/uGHH952221LS0u33377008/3dPTc/z48fPnz6+urm7evHlycvLdd99dWVlZXV0dHBx86qmn1q1bl/vvAZUisXDL+/7770+fPn348OG+vr65ublz585t2LCht7f3m2++efHFFwcGBl577bXvvvvut99+u3Tp0jPPPJNSevvtt48fPz4wMDA1NZVS+vzzz5eXlyUWbi6JhVve119/PTo62tfXl1I6cODA/Pz84uJiSmnr1q0DAwMppVqt1mq1FhcXFxYW3njjjbV/a+fOnY1G46233tq5c2e9Xh8aGsr4V4BKkliogr99qKK3t/dPI/V6/cCBA1f/cWJiYmFh4dy5c6+//vrBgwfvueee2FVCl/FEMdzyRkdHv/zyy5WVlZTS+++//+mnn/7tj+3YseOLL774/fffU0ozMzOnTp06f/789u3bH3nkkV27dn377belLhq6gKtYuOVt2bLl4Ycfnp6e7u3tXb9+/b333vvDDz/89cfuvvvu+++/f3p6uqen56677rrvvvtmZ2dXV1eLoujv73/yySfLXzlUm0M7ABDCRjEAhJBYAAghsQAQQmIBIITEAkAIiQWAEBILACEkFgBCSCwAhJBYAAhR3mcUN5vN6ClGRkaipwCAf6nUrwHo7++P+8PXvmYEADqEjWIACCGxABBCYgEgRLavZP+2/z9/Gtmx8l6WlQBAhJxXsUvXSCl9/PHHGRcDADeXjWIACCGxABBCYgEgRLbHnVJKmzZtyjg7AITKltgdK+95vgmACst5Ffvggw9mnB0AQrkXCwAhJBYAQkgsAISQWAAIUerjTr7SFYDuUbTb7dxrAIAKslEMACEkFgBCSCwAhJBYAAghsQAQQmIBIMR/AaqXIRq9yx6LAAAAAElFTkSuQmCC" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td valign="top"><a name="oresponsetime"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_chat_response_times--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_chat_response_times--> (hh:mm:ss) / <!--lang_stats_total_messages--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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62S0gxILBPG4PmRhoxgAQvjdFgBCuIoFgBASCwAhJBaq5pNPPjl27FjuVQDuxQJAjL7cCwBugkaj8dFHHxVFMTQ0NDo6eunSpXq9/uGHH952221LS0u33377008/3dPTc/z48fPnz6+urm7evHlycvLdd99dWVlZXV0dHBx86qmn1q1bl/vvAZUisXDL+/7770+fPn348OG+vr65ublz585t2LCht7f3m2++efHFFwcGBl577bXvvvvut99+u3Tp0jPPPJNSevvtt48fPz4wMDA1NZVS+vzzz5eXlyUWbi6JhVve119/PTo62tfXl1I6cODA/Pz84uJiSmnr1q0DAwMppVqt1mq1FhcXFxYW3njjjbV/a+fOnY1G46233tq5c2e9Xh8aGsr4V4BKkliogr99qKK3t/dPI/V6/cCBA1f/cWJiYmFh4dy5c6+//vrBgwfvueee2FVCl/FEMdzyRkdHv/zyy5WVlZTS+++//+mnn/7tj+3YseOLL774/fffU0ozMzOnTp06f/789u3bH3nkkV27dn377belLhq6gKtYuOVt2bLl4Ycfnp6e7u3tXb9+/b333vvDDz/89cfuvvvu+++/f3p6uqen56677rrvvvtmZ2dXV1eLoujv73/yySfLXzlUm0M7ABDCRjEAhJBYAAghsQAQQmIBIITEAkAIiQWAEBILACEkFgBCSCwAhJBYAAhR3mcUN5vN6ClGRkaipwCAf6nUrwHo7++P+8PXvmYEADqEjWIACCGxABBCYgEgRLavZP+2/z9/Gtmx8l6WlQBAhJxXsUvXSCl9/PHHGRcDADeXjWIACCGxABBCYgEgRLbHnVJKmzZtyjg7AITKltgdK+95vgmACst5Ffvggw9mnB0AQrkXCwAhJBYAQkgsAISQWAAIUerjTr7SFYDuUbTb7dxrAIAKslEMACEkFgBCSCwAhJBYAAghsQAQQmIBIMR/AaqXIRq9yx6LAAAAAElFTkSuQmCC" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="otickets"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_tickets--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_operator--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_new_tickets--> (<!--lang_stats_resolved_tickets--> / <!--lang_stats_incoming_messages--> / <!--lang_stats_outgoing_messages-->)</div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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ZLSJEgsE8bg+ZOFGMQCE8LMtAIRwFQsAISQWAEJILJTNN99889lnn+WeAvBeLADEaM89AHAb1Gq1r776qlKp9Pb29vf3z87ODgwMfPnll3fcccfc3Fx3d/crr7yyZs2a48ePT09PLy8v33PPPc8+++wnn3yytLS0vLx85513vvTSS2vXrs3994BSkVhY9X788cdTp04dPHiwvb392LFj58+f7+npaWtru3DhwltvvdXV1fX+++//8MMP165dm52dffXVV1NKH3/88fHjx7u6ukZHR1NK586dW1hYkFi4vSQWVr3vv/++v7+/vb09pbR///6JiYnLly+nlDZv3tzV1ZVSqlari4uLly9fvnTp0pEjR67/U9u2bavVakePHt22bdvAwEBvb2/GvwKUksRCGfzlQxVtbW1/WhkYGNi/f//KH4eHhy9dunT+/PkPPvjghRde2L59e+yU0GI8UQyrXn9//3fffbe0tJRS+vzzz8+ePfuX37Z169bJyck//vgjpTQ2Nnby5Mnp6ektW7Y8/fTTg4ODFy9eLHRoaAGuYmHV27Rp01NPPXX48OG2trZ169Y99NBDP/30083f9sADD+zcufPw4cNr1qy5//77H3744fHx8eXl5Uql0tHR8eKLLxY/OZSbQzsAEMKNYgAIIbEAEEJiASCExAJACIkFgBASCwAhJBYAQkgsAISQWAAIIbEAEKK4zyiu1+vRW/T19UVvAQB/U6G/BqCjoyPuX37914wAQJNwoxgAQkgsAISQWAAIke1Xsl/s+NefVrYu/TvLJAAQIedV7NwNUkpff/11xmEA4PZyoxgAQkgsAISQWAAIke1xp5TSxo0bM+4OAKGyJXbr0r893wRAieW8in3ssccy7g4AobwXCwAhJBYAQkgsAISQWAAIUejjTn6lKwCto9JoNHLPAAAl5EYxAISQWAAIIbEAEEJiASCExAJACIkFgBD/AerCGvRMVHjyAAAAAElFTkSuQmCC" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td valign="top"><a name="oticketresponsetime"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_ticket_response_time--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="12" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_group--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">cines</td>
+		<td align="center" NOWRAP valign="top">-</td>
+		<td align="center" NOWRAP valign="top">-</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_ticket_response_time--> / <!--lang_stats_ticket_resolve_time--></div>
+		</td>
+        <td style="text-align:right;width:670px;vertical-align:top;">
+            <img src="data:image/png;base64,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NooBIITXtgAQwlUsAISQWAAIIbFQNd98881HH32UexWAe7EAEKMn9wKAW6DRaHz11VdFUQwMDIyMjCwsLNTr9c8///y2225bXFy88847X3rppa6urpmZmfPnz6+trW3ZsuWZZ545evTo6urq2traHXfc8eKLL95+++25/x5QKRILG96vv/568uTJQ4cO9fT0HD9+/Ny5c/39/d3d3T/99NPrr7/e19d3+PDhX3755cqVKwsLCy+//HJK6cMPP5yZmenr65ucnEwpnT59enl5WWLh1pJY2PB+/PHHkZGRnp6elNL+/fvn5ubm5+dTSvfee29fX19KqVarrayszM/PX7x48b333rv2u3bs2NFoND744IMdO3bU6/WBgYGMfwWoJImFKvjbhyq6u7v/MlKv1/fv37/+y4mJiYsXL547d+7dd9994YUX7r///thVQofxRDFseCMjIz/88MPq6mpK6ZNPPvnuu+/+9su2bdt25syZq1evppSmpqZOnDhx/vz54eHhJ598cmxs7Oeffy510dABXMXChrd169YnnnjiyJEj3d3dd9111wMPPPDbb7/d+GX33XffQw89dOTIka6uru3btz/44IPT09Nra2tFUfT29h44cKD8lUO1ObQDACFsFANACIkFgBASCwAhJBYAQkgsAISQWAAIIbEAEEJiASCExAJACIkFgBDlvUdxs9mMnmJoaCh6CgD4h0r9MQC9vb1xf/i1HzMCAG3CRjEAhJBYAAghsQAQItuPZP+5919/Gdm2+u8sKwGACDmvYhevk1L6+uuvMy4GAG4tG8UAEEJiASCExAJAiGyPO6WUNm/enHF2AAiVLbHbVv/t+SYAKiznVezo6GjG2QEglHuxABBCYgEghMQCQAiJBYAQpT7u5Ee6AtA5ilarlXsNAFBBNooBIITEAkAIiQWAEBILACEkFgBCSCwAhPgPHgMZ0zRd2A0AAAAASUVORK5CYII=" />
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+
+	<!--months-->
+	
+	<tr>
+    <td>
+        <a name="hhours">
+        <br><br>
+        <table cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td colspan="2" class="header_line"><!--lang_stats_by_hours--></td>
+            </tr>
+            <tr>
+                <td class="header_nav_line">
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="display:;"><a href="#hvisitors"><!--lang_stats_visitors_and_pages--></a></td>
+                            <td style="display:;"><a href="#hchats"><!--lang_stats_chats_and_availability--></a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="header_nav_line" style="text-align:right;"><a href="#top"><!--lang_stats_top--></a></td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+                <td width="48%" valign="top"><a name="hvisitors"></a><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_visitors--></span></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_hour--></td>
+					<td align="center" class="bt_column_header" width="50" NOWRAP><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="104"><!--lang_stats_chart--></td>
+				</tr>
+				
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>00:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>01:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>02:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>03:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>04:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>05:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>06:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>07:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>08:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>09:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>10:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>11:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>12:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>13:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>14:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>15:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>16:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>17:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>18:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>19:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>20:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>21:00</td>
+		<td align="center" NOWRAP>1</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>22:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>23:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br></td>
+                <td width="4%">&nbsp;</td>
+                <td width="48%" valign="top" align="right"><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_page_impressions--></span></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="2" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_hour--></td>
+					<td align="center" class="bt_column_header" width="50" NOWRAP><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="104"><!--lang_stats_chart--></td>
+				</tr>
+				
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>00:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>01:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>02:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>03:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>04:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>05:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>06:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>07:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>08:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>09:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>10:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>11:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>12:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>13:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>14:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>15:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>16:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>17:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>18:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>19:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>20:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>21:00</td>
+		<td align="center" NOWRAP>2</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -0px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>22:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+		<td NOWRAP>23:00</td>
+		<td align="center" NOWRAP>0</td>
+		<td align="center" NOWRAP><img class="chart" src="" width="102" alt="0%" title="0%" style="background-position: -100px 0pt;"></td>
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<br></td>
+            </tr>
+            <tr>
+                <td width="48%" valign="top"><a name="hchats"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header">Chats</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('cbh',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('cbh',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_hour--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">00:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">01:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">02:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">03:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">04:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">05:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">06:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">07:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">08:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">09:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">10:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">11:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">12:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">13:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">14:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">15:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">16:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">17:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">18:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">19:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">20:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">21:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">22:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">23:00</td>
+		<td align="center" NOWRAP valign="top">0 (0 / 0 / 0)</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_description_operator_chats--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                <td width="4%">&nbsp;</td>
+                <td width="48%" valign="top" align="right"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_operator_availability--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('oa',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('oa',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="25" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_hour--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">00:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">01:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">02:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">03:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">04:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">05:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">06:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">07:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">08:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">09:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">10:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">11:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">12:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">13:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">14:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">15:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">16:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">17:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">18:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">19:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">20:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">21:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">22:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">&nbsp;</td>
+		<td NOWRAP valign="top">23:00</td>
+		<td align="center" NOWRAP valign="top">00:00:00</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--lang_stats_absolute-->: <!--lang_stats_status_online--> (<!--lang_stats_status_busy-->)</div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+	
+	<tr style="display:;">
+		<td>
+			<a name="ttops"></a>
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line" colspan="2">TOPs <!--lang_stats_visitors--></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="display:;"><a href="#tsystems"><!--lang_stats_browser_and_system--></a></td>
+								<td style="display:;"><a href="#torigins"><!--lang_stats_origin--></a></td>
+								<td style="display:;"><a href="#tvisits"><!--lang_stats_visits--></a></td>
+								<td style="display:;"><a href="#tisps"><!--lang_stats_isps--></a></td>
+							</tr>
+						</table>
+					</td>
+                    <td class="header_nav_line" style="text-align:right;"><a href="#top"><!--lang_stats_top--></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td style="width:48%;" valign="top"><a name="tsystems"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_systems--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_system--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Windows 7</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;" valign="top"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_browsers--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_browser--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Chrome 32</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Chrome 36</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+                <tr>
+					<td style="width:48%" valign="top" align="right"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_resolutions--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_resolution--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">1366 x 768 (32 Bit)</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;" valign="top"><a name="torigins"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_cities--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_city--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">S&atilde;o Paulo</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Guarulhos</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+				<tr>
+					<td style="width:48%;" valign="top"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_regions--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_region--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Sao Paulo</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;" valign="top"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_countries--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_country--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Brazil</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+                <tr>
+					<td style="width:48%;" valign="top" align="right"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_languages--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_language--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Spanish</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;" valign="top"><a name="tvisits"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_visits--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_visits--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                </tr>
+                <tr>
+					<td style="width:48%;" valign="top" align="right"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_time_on_page--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_duration--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">00 - 01 min</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;" ><a name="tisps"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_isps--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_isp--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">Vivo</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top">Net Servicos De Comunicacao S.a.</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr style="display:;">
+		<td>
+			<br>
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td class="header_line" colspan="2">TOPs <!--lang_stats_pages--></td>
+				</tr>
+				<tr>
+					<td class="header_nav_line">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td style="display:;"><a href="#tpages"><!--lang_stats_pages--></a></td>
+								<td style="display:;"><a href="#tentranceexit"><!--lang_stats_entrance_pages--> &amp; <!--lang_stats_exit_pages--></a></td>
+    							<td style="display:;"><a href="#tsearch"><!--lang_stats_search_engines--></a></td>
+								<td style="display:;"><a href="#treferrers"><!--lang_stats_referrers--></a></td>
+								<td style="display:;"><a href="#tdomains"><!--lang_stats_domains--></a></td>
+
+							</tr>
+						</table>
+					</td>
+                    <td class="header_nav_line" style="text-align:right;"><a href="#top"><!--lang_stats_top--></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="height:200px;" valign="top">
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_pages">
+				<tr>
+					<td><a name="tpages"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_9">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_pages--> (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_9','header');switchVisibility('p_url_top_9','header');" class="header_link"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="95"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">http://publicidadcines.com/</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_9">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_pages--> (<!--lang_stats_titles-->)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_9','header');switchVisibility('p_url_top_9','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">Publicidad en cines</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_entrance_exit_pages">
+				<tr>
+					<td><a name="tentranceexit"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_17">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_entrance_pages--> (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_17','header');switchVisibility('p_url_top_17','header');" class="header_link"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="95"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">http://publicidadcines.com/</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_17">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_entrance_pages--> (<!--lang_stats_titles-->)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_17','header');switchVisibility('p_url_top_17','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">Publicidad en cines</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+</td>
+				</tr>
+				<tr>
+					<td><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_19">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_exit_pages--> (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_19','header');switchVisibility('p_url_top_19','header');" class="header_link"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="95"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">http://publicidadcines.com/</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_19">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_exit_pages--> (<!--lang_stats_titles-->)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected"><!--lang_stats_titles--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_19','header');switchVisibility('p_url_top_19','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_page--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://publicidadcines.com/" target="_blank">Publicidad en cines</a></td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_search">
+				<tr>
+					<td style="width:48%;vertical-align:top;" valign="top"><a name="tsearch"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_search_phrases--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_search_phrase--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><!--lang_stats_none--></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+</td>
+                    <td style="width:4%;"></td>
+					<td style="width:48%;vertical-align:top;" valign="top"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_search_engines--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_search_engines--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><!--lang_stats_none--></td>
+		<td align="center" NOWRAP valign="top">0</td>
+		<td align="center" NOWRAP valign="top">0%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+</td>
+				</tr>
+				<tr>
+					<td style="width:48%;vertical-align:top;" valign="top"><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_crawlers--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_crawler--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">MSN / Bing</td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+                    <td style="width:4%;"></td>
+                    <td style="width:48%;vertical-align:top;" valign="top"><a name="tdomains"></a><br><table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td colspan="2" class="bt_header">
+			<table width="100%">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_domains--></span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0" style="display:none;">
+							<tr>
+								<td valign="top"><div onClick="expandBlock('',true);" class="header_link"><!--lang_stats_expand_all--></div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="expandBlock('',false);" class="header_link"><!--lang_stats_collapse_all--></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="vertical-align:top;">
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="16" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_domain--></td>
+					<td align="center" class="bt_column_header" width="120"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top">http://publicidadcines.com</td>
+		<td align="center" NOWRAP valign="top">2</td>
+		<td align="center" NOWRAP valign="top">100%</td>
+
+	</tr>
+
+			</table>
+            <div class="description"><!--description--></div>
+		</td>
+        <td style="text-align:right;width:<!--width-->;vertical-align:top;">
+            <!--graph-->
+        </td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" width="100%" id="p_referrers">
+				<tr>
+					<td><a name="treferrers"></a><table width="100%" cellspacing="0" cellpadding="0" id="p_url_top_30">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_referrers--> (URL)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_30','header');switchVisibility('p_url_top_30','header');" class="header_link">Domains</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div class="header_link_selected">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_referrer--></td>
+					<td align="center" class="bt_column_header" width="95"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://top1-seo-service.com/try.php?u=http://publicidadcines.com" target="_blank">http://top1-seo-service.com/try.php?u=http://publicidadcines.com</a></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://buttons-for-website.com" target="_blank">http://buttons-for-website.com</a></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="display:none;" id="p_title_top_30">
+	<tr>
+		<td class="bt_header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><span class="bt_sub_header"><!--lang_stats_referrers--> (Domains)</span></td>
+					<td align="right" valign="bottom">
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><div class="header_link_selected">Domains</div></td>
+								<td valign="top">&nbsp;&nbsp;|&nbsp;&nbsp;</td>
+								<td valign="top"><div onClick="switchVisibility('p_title_top_30','header');switchVisibility('p_url_top_30','header');" class="header_link">URL</div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table class="bt_values" cellspacing="0" cellpadding="1" width="100%">
+				<tr>
+					<td class="bt_column_header" width="15" height="19">&nbsp;</td>
+					<td class="bt_column_header" width="*" NOWRAP><!--lang_stats_referrer--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_absolute--></td>
+					<td align="center" class="bt_column_header" width="50"><!--lang_stats_relative--></td>
+				</tr>
+				
+	<tr>
+		<td height="19" valign="top">1</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://top1-seo-service.com" target="_blank">http://top1-seo-service.com</a></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+	<tr>
+		<td height="19" valign="top">2</td>
+		<td NOWRAP valign="top"><a href="http://dereferrer.livezilla.info/?url=http://buttons-for-website.com" target="_blank">http://buttons-for-website.com</a></td>
+		<td align="center" NOWRAP valign="top">1</td>
+		<td align="center" NOWRAP valign="top">50%</td>
+
+	</tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

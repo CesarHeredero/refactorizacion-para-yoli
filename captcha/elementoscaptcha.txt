@@ -1,0 +1,45 @@
+$("#boton").css("display","none");
+
+
+    	<div id="izquierdo2">Verifiquemos si eres Humano<br /><div id="captchaResult" style="color:#C00;"></div></div><div id="derecho2">
+		  <img src="captcha/captcha.php" width="100" height="30" vspace="3"><br>
+          <input name="tmptxt" type="text" class="texto" id="tmptxt" size="30" />
+          <br><br>
+		  <input name="btgest" type="button" class="boton" id="btgest" onclick="verificarCaptcha();" value="Verificar Codigo">
+		  <input name="acton" type="hidden" id="acton" value="checkdata">
+
+        </div>    
+
+
+
+<script>
+function verificarCaptcha()
+{
+	var tmptxt = $("#tmptxt").val();
+	var acton = $("#acton").val();
+	$.ajax({
+		type: "POST",
+		url: "captcha/verifficaptcha.php",
+		data: "tmptxt="+tmptxt+"&action="+acton,
+		async:true,
+		beforeSend: function(objeto){
+			$('#captchaResult').html("Un momento, estamos verificando si eres humano");
+		},
+		success: function(datos){
+			//alert(datos);
+			//$("#result").html("seleccione un mes...");
+			if(datos=='OK')
+			{
+				$('#captchaResult').html("Excelente!... eres humano, ahora puedes enviar el formulario");	
+				$("#boton").css("display","block");
+				$("#btgest").css("display","none");			
+			}
+			else
+			{
+				$('#captchaResult').html("Lo sentimos, no pareces humano, intenta de nuevo!");				
+			}
+		},
+		timeout: 300000
+	});
+}
+</script>
