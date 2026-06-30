@@ -86,6 +86,84 @@
 
   var whatsappHtml = '<a href="https://api.whatsapp.com/send/?phone=34668554651" style="position:fixed; z-index:100; bottom:20px; right:20px;" target="_blank"><img src="images/whatsapp-icon.png" style="width:55px; height:55px;" alt="WhatsApp"></a>';
 
+  var contactFormHtml = [
+    '<div class="main-contact">',
+    '  <h2 class="head">CONTACTO</h2>',
+    '  <p><strong>Solicite ahora un presupuesto sin compromiso para anunciarse en salas de {city}</strong></p>',
+    '  <div class="contact-form">',
+    '    <form name="contact-form" id="contact-form" action="_contacto_OK.php" method="post">',
+    '      <fieldset>',
+    '        <div class="row">',
+    '          <div class="form-group">',
+    '            <div class="col-md-4 col-sm-4">',
+    '              <label>Nombre *</label>',
+    '              <input type="text" name="nombre" id="nombre" class="form-control required" required />',
+    '            </div>',
+    '            <div class="col-md-4 col-sm-4">',
+    '              <label>Email *</label>',
+    '              <input type="email" name="email" id="email" class="form-control required" required />',
+    '            </div>',
+    '            <div class="col-md-4 col-sm-4">',
+    '              <label>Teléfono*</label>',
+    '              <input type="text" name="telefono" id="telefono" class="form-control" required/>',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '        <div class="row">',
+    '          <div class="form-group">',
+    '            <div class="col-md-4 col-sm-4">',
+    '              <label>Empresa *</label>',
+    '              <input type="text" name="empresa" id="empresa" class="form-control required" required />',
+    '            </div>',
+    '            <div class="col-md-4 col-sm-4">',
+    '              <label>Ciudad/Población</label>',
+    '              <input type="text" name="ciudad" id="ciudad" class="form-control" />',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '        <div class="row">',
+    '          <div class="form-group">',
+    '            <div class="col-md-12 col-sm-12">',
+    '              <label>Mensaje</label>',
+    '              <textarea name="mensaje" id="mensaje" rows="5" class="form-control word-count" data-info="textarea-words-info" placeholder="Deje su mensaje..."></textarea>',
+    '              <input type="email" style="display:none;" name="verificacion" class="verif" />',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '        <div class="row">',
+    '          <div class="form-group">',
+    '            <div class="col-md-6 col-sm-6">',
+    '              <span><strong>Deseo recibir la información solicitada por *</strong></span><br>',
+    '              <label class="radio"><input type="radio" name="info" value="Email" checked="checked" required><i></i> Email</label>',
+    '              <label class="radio"><input type="radio" name="info" value="Teléfono" required><i></i> Teléfono</label>',
+    '              <label class="radio"><input type="radio" name="info" value="Ambos" required><i></i> Ambos</label>',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '        <div class="row">',
+    '          <div class="form-group">',
+    '            <div class="col-md-6 col-sm-6">',
+    '              <input type="checkbox" style="margin-bottom:24px;margin-top:24px;" name="info" value="Email" required>',
+    '              <i></i> He leido y acepto la <a href="https://publicidadcines.com/politica-privacidad.html">política de privacidad</a>',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '        <div class="row">',
+    '          <div class="col-md-12">',
+    '            <div id="action">',
+    '              <button type="submit" class="btn btn-3d btn-teal btn-primary btn-lg margin-top-0"><i class="fa fa-check"></i>  ENVIAR FORMULARIO</button>',
+    '            </div>',
+    '          </div>',
+    '        </div>',
+    '      </fieldset>',
+    '    </form>',
+    '  </div>',
+    '  <div class="contact_info" style="text-align:center;">',
+    '    <div class="map"><a href="mailto:info@publicidadcines.com"><img style="max-width:100%;height:auto;" src="images/footer-contact-s.jpg" alt="Plató 16 y Santiso Asesores" title="Plató 16 y Santiso Asesores"></a></div>',
+    '  </div>',
+    '</div>'
+  ].join('\n');
+
   var navMap = {
     'index.html':          'inicio',
     '':                    'inicio',
@@ -102,6 +180,12 @@
     if (navEl)      navEl.innerHTML      = menuHtml;
     if (footerEl)   footerEl.innerHTML   = footerHtml;
     if (whatsappEl) whatsappEl.innerHTML = whatsappHtml;
+
+    var contactEl = document.getElementById('site-contact-form');
+    if (contactEl) {
+      var city = contactEl.getAttribute('data-city') || '';
+      contactEl.outerHTML = contactFormHtml.replace('{city}', city);
+    }
 
     var page = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
     var activeNav = navMap[page];
