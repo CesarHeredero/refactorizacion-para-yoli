@@ -36,51 +36,9 @@
 
 <link href="css/responsiveslides.css" rel="stylesheet">
 <script src="js/responsiveslides.js"></script>
-  <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-
-      // Slideshow 1
-      $("#slider1").responsiveSlides({
-        speed: 3000,
-      });
-	  });
-  </script>
   
-<!-- pop-up-box --> 
-		<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
-		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-		 <script>
-				$(document).ready(function() {
-				$('.popup-with-zoom-anim').magnificPopup({
-					type: 'inline',
-					fixedContentPos: false,
-					fixedBgPos: true,
-					overflowY: 'auto',
-					closeBtnInside: true,
-					preloader: false,
-					midClick: true,
-					removalDelay: 300,
-					mainClass: 'my-mfp-zoom-in'
-				});
-				});
-		</script>	
 
-<script>
-        window.onload = function() { window.scrollTo(0,0); };
-    </script>
 
-<script language="javascript">
-$(document).ready(function(){
-$(".refresh").click(function () {
-    $(".imgcaptcha").attr("src","captchab/demo_captcha.php?_="+((new Date()).getTime()));
-});
-     function clear_form()
-     {
-		$("#captcha").val('');
-     }	 
-});
-</script>
     
 
 
@@ -91,35 +49,10 @@ $(".refresh").click(function () {
 	<!-- header-section-starts -->
 	<div class="full">
 <div id="site-nav"></div>
-<div class="main" style="background-color:#000; height:auto; padding-top:30px; padding-bottom:200px; background-image:url(images/bg-cine-sala2.png); background-position: 50% 100%; background-repeat:no-repeat;">
-  <ul class="rslides" id="slider1">
-    <li><a href="http://publicidadcines.com/spots/piniauto-02.webm" target="_blank"><img src="images/portadas/video-cine-14.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/quesos-camporeal.webm" target="_blank"><img src="images/portadas/video-cine-24.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/restaurante-shibuya.webm" target="_blank"><img src="images/portadas/video-cine-15.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/spot-ceramico.webm" target="_blank"><img src="images/portadas/video-cine-16.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/spot-estoril.webm" target="_blank"><img src="images/portadas/video-cine-17.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/terranova-02.webm" target="_blank"><img src="images/portadas/video-cine-18.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/the-good-burger.webm" target="_blank"><img src="images/portadas/video-cine-19.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/clinica-h20-02.webm" target="_blank"><img src="images/portadas/video-020.jpg" style="max-width:100%; height:auto;" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/la-clinica-veterinaria-02.webm" target="_blank"><img src="images/portadas/video-021.jpg" style="max-width:100%; height:auto;" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/lynea-y-salud-02.webm" target="_blank"><img src="images/portadas/video-022.jpg" style="max-width:100%; height:auto;" /></a></li>
-    <li><a href="http://publicidadcines.com/spots/spot-racc-02.webm" target="_blank"><img src="images/portadas/video-023.jpg" style="max-width:100%; height:auto;" /></a></li>
-    <li><a href="https://www.youtube.com/embed/W_3moGr30hQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-01.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/lfBwjKxsFzQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-02.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://player.vimeo.com/video/111247044" target="_blank"><img src="images/portadas/video-cine-03.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/KvQHcIwh1S8?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-06.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/SsWSLFJtKng?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-07.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/aN8wnBSk_1Y?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-10.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/6rIjZ8uIWEw?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-11.jpg" class="img-responsive" alt="" /></a></li>
-    <li><a href="https://www.youtube.com/embed/DuT703SnkVo?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-12.jpg" class="img-responsive" alt="" /></a></li>
-  </ul>
-</div>
+<div id="site-slider"></div>
 <div class="main">
 		<div class="contact-content">
-			<div class="top-header span_top">
-			  <a href="index.html"><img src="images/logos-top.png" style="max-width:100%; height:auto;" alt="Publcidad en cines" title="Publcidad en cines" /></a>
-			  <div class="clearfix"></div>
-			</div>
+			<div id="site-logo"></div>
 
           <div class="news" style="padding-bottom:1em;">
         

@@ -86,6 +86,39 @@
 
   var whatsappHtml = '<a href="https://api.whatsapp.com/send/?phone=34668554651" style="position:fixed; z-index:100; bottom:20px; right:20px;" target="_blank"><img src="images/whatsapp-icon.png" style="width:55px; height:55px;" alt="WhatsApp"></a>';
 
+  var logoHtml = [
+    '<div class="top-header span_top">',
+    '  <a href="index.html"><img src="images/logos-top.png" style="max-width:100%; height:auto;" alt="Publcidad en cines" title="Publcidad en cines" /></a>',
+    '  <div class="clearfix"></div>',
+    '</div>'
+  ].join('\n');
+
+  var sliderHtml = [
+    '<div class="main" style="background-color:#000; height:auto; padding-top:30px; padding-bottom:200px; background-image:url(images/bg-cine-sala2.png); background-position: 50% 100%; background-repeat:no-repeat;">',
+    '  <ul class="rslides" id="slider1">',
+    '    <li><a href="http://publicidadcines.com/spots/piniauto-02.webm" target="_blank"><img src="images/portadas/video-cine-14.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/quesos-camporeal.webm" target="_blank"><img src="images/portadas/video-cine-24.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/restaurante-shibuya.webm" target="_blank"><img src="images/portadas/video-cine-15.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-ceramico.webm" target="_blank"><img src="images/portadas/video-cine-16.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-estoril.webm" target="_blank"><img src="images/portadas/video-cine-17.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/terranova-02.webm" target="_blank"><img src="images/portadas/video-cine-18.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/the-good-burger.webm" target="_blank"><img src="images/portadas/video-cine-19.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/clinica-h20-02.webm" target="_blank"><img src="images/portadas/video-020.jpg" style="max-width:100%; height:auto;" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/la-clinica-veterinaria-02.webm" target="_blank"><img src="images/portadas/video-021.jpg" style="max-width:100%; height:auto;" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/lynea-y-salud-02.webm" target="_blank"><img src="images/portadas/video-022.jpg" style="max-width:100%; height:auto;" /></a></li>',
+    '    <li><a href="http://publicidadcines.com/spots/spot-racc-02.webm" target="_blank"><img src="images/portadas/video-023.jpg" style="max-width:100%; height:auto;" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/W_3moGr30hQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-01.jpg" style="max-width:100%; height:auto;" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/lfBwjKxsFzQ?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-02.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://player.vimeo.com/video/111247044" target="_blank"><img src="images/portadas/video-cine-03.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/KvQHcIwh1S8?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-06.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/SsWSLFJtKng?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-07.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/aN8wnBSk_1Y?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-10.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/6rIjZ8uIWEw?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-11.jpg" class="img-responsive" alt="" /></a></li>',
+    '    <li><a href="https://www.youtube.com/embed/DuT703SnkVo?rel=0&autoplay=1" target="_blank"><img src="images/portadas/video-cine-12.jpg" class="img-responsive" alt="" /></a></li>',
+    '  </ul>',
+    '</div>'
+  ].join('\n');
+
   var contactFormHtml = [
     '<div class="main-contact">',
     '  <h2 class="head">CONTACTO</h2>',
@@ -186,6 +219,33 @@
       var city = contactEl.getAttribute('data-city') || '';
       contactEl.outerHTML = contactFormHtml.replace('{city}', city);
     }
+
+    var sliderEl = document.getElementById('site-slider');
+    if (sliderEl) {
+      sliderEl.outerHTML = sliderHtml;
+      if (typeof $ !== 'undefined' && $.fn.responsiveSlides) {
+        $('#slider1').responsiveSlides({ speed: 3000 });
+      }
+    }
+
+    var logoEl = document.getElementById('site-logo');
+    if (logoEl) { logoEl.outerHTML = logoHtml; }
+
+    if (typeof $ !== 'undefined' && $.fn.magnificPopup) {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+    }
+
+    window.addEventListener('load', function () { window.scrollTo(0, 0); });
 
     var page = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
     var activeNav = navMap[page];
