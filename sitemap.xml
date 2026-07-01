@@ -682,13 +682,7 @@
     <loc>https://publicidadcines.com/aviso-legal.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/cines.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/contacto.html</loc>
@@ -700,31 +694,13 @@
     <loc>https://publicidadcines.com/creacion-logotipos.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/enlaces-de-interes.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/formulario-enviado.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/index-antigua.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/index-peliculas.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/index.html</loc>
@@ -733,82 +709,46 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://publicidadcines.com/index33.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://publicidadcines.com/invertir-publicidad-cine.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/las-10-frases-5-estrellas-relacionadas-con-el-cine.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/las-10-frases-mas-famosas-de-la-historia-del-cine.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/logotipos.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/otros-servicios.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/paquetes-promocionales.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/peliculas-contenido-bb.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/peliculas-contenido.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/peliculas.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/politica-privacidad.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/politica-uso-cookies.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/popup.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/porfolio.html</loc>
@@ -820,25 +760,25 @@
     <loc>https://publicidadcines.com/promocionanual.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/publicidad-monopostes-madrid.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/publicidad-onda-madrid.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/publicidad-telemadrid.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://publicidadcines.com/quienes-somos.html</loc>
@@ -847,21 +787,9 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://publicidadcines.com/single-original.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://publicidadcines.com/spotgratis.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://publicidadcines.com/z-cines.html</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>
