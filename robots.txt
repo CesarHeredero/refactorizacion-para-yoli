@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://publicidadcines.com/sitemap.xml
