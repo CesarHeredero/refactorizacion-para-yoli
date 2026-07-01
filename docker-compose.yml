@@ -7,3 +7,12 @@ services:
     ports:
       - "8082:80"
     restart: unless-stopped
+
+  updater:
+    image: alpine/git
+    container_name: desarrolloyoli-updater
+    volumes:
+      - .:/repo
+    working_dir: /repo
+    command: sh -c "while true; do git pull origin main; sleep 120; done"
+    restart: unless-stopped
